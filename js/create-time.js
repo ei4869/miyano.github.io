@@ -1,0 +1,1 @@
+function createtime(){const t=new Date-new Date("2025/01/02 00:00:00"),e=Math.floor(t/(1e3*60*60*24)),o=Math.floor(t/(1e3*60*60)%24),n=Math.floor(t/(1e3*60)%60),c=Math.floor(t/1e3%60);document.getElementById("time").innerHTML=`\u6B64\u7AD9\u5DF2\u5B58\u6D3B ${e} \u5929 ${o} \u5C0F\u65F6 ${n} \u5206 ${c} \u79D2`}setInterval(createtime,1e3);
