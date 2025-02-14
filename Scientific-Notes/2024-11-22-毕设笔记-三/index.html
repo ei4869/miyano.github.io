@@ -1,0 +1,676 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"><meta name="theme-color" content="#222"><meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"><meta name="renderer" content="webkit"><link rel="icon" type="image/ico" sizes="32x32" href="/miyano/assets/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/miyano/assets/apple-touch-icon.png"><link rel="alternate" href="/miyano/rss.xml" title="自分の為に楽しめ世界" type="application/rss+xml"><link rel="alternate" href="/miyano/atom.xml" title="自分の為に楽しめ世界" type="application/atom+xml"><link rel="alternate" type="application/json" title="自分の為に楽しめ世界" href="https://ei4869.github.io/miyano/feed.json"><link rel="preconnect" href="https://s4.zstatic.net"><link rel="preconnect" href="https://at.alicdn.com"><link rel="preconnect" href="https://cloudflare-imgbed-9os.pages.dev"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CFredericka%20the%20Great:400,400italic,700,700italic%7CNoto%20Serif%20JP:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic%7CInconsolata:400,400italic,700,700italic&amp;display=swap&amp;subset=latin,latin-ext" media="none" onload="this.media='all'"><link rel="stylesheet" href="/miyano/css/app.css?v=0.4.17"><link rel="modulepreload" href="/miyano/js/chunk-352Z26K4.js"><link rel="modulepreload" href="/miyano/js/chunk-4ZFZY26B.js"><link rel="modulepreload" href="/miyano/js/chunk-BN4F4JMV.js"><link rel="modulepreload" href="/miyano/js/chunk-KABY3TZQ.js"><link rel="modulepreload" href="/miyano/js/chunk-RC7JEBHY.js"><link rel="modulepreload" href="/miyano/js/chunk-WIQECBEN.js"><link rel="modulepreload" href="/miyano/js/comments-F4ZK44WD.js"><link rel="modulepreload" href="/miyano/js/copy-tex-BIQFBMCI.js"><link rel="modulepreload" href="/miyano/js/index.esm-6Q7BVENK.js"><link rel="modulepreload" href="/miyano/js/post-WKBV5WBX.js"><link rel="modulepreload" href="/miyano/js/quicklink-2D2A767I.js"><link rel="modulepreload" href="/miyano/js/search-4CQPMKYW.js"><link rel="modulepreload" href="/miyano/js/siteInit.js"><link rel="modulepreload" href="/miyano/js/waline-NVSVNCZW.js"><link rel="stylesheet" href="/miyano/css/comments-LAB2J3GR.css" media="none" onload="this.media='all'"><link rel="stylesheet" href="/miyano/css/siteInit.css" media="none" onload="this.media='all'"><link rel="stylesheet" href="/miyano/css/waline-7JVHAYE3.css" media="none" onload="this.media='all'"><link rel="preload" href="https://cloudflare-imgbed-9os.pages.dev/file/eva_19.webp" as="image" fetchpriority="high"><link rel="preload" href="https://cloudflare-imgbed-9os.pages.dev/file/eva_25.webp" as="image" fetchpriority="high"><link rel="preload" href="https://cloudflare-imgbed-9os.pages.dev/file/eva_35.webp" as="image" fetchpriority="high"><link rel="preload" href="https://cloudflare-imgbed-9os.pages.dev/file/eva_25.webp" as="image" fetchpriority="high"><link rel="preload" href="https://cloudflare-imgbed-9os.pages.dev/file/eva_35.webp" as="image" fetchpriority="high"><link rel="preload" href="https://cloudflare-imgbed-9os.pages.dev/file/eva_27.webp" as="image" fetchpriority="high"><meta name="keywords" content="毕设"><meta name="description" content="氧空位有序性对铁掺杂锶基钙钛矿结构和反应活性的影响：一项计算研究"><link rel="canonical" href="https://ei4869.github.io/miyano/Scientific-Notes/2024-11-22-%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0-%E4%B8%89/"><script>window.sakuraConfig = {
+  sakura: 30,
+  xSpeed: 0.5,
+  ySpeed: 0.5,
+  rSpeed: 0.03,
+  direction: "TopRight",
+  zIndex: -1
+};</script><script src="https://cdn.jsdelivr.net/gh/minz71/sakura-rain/sakura-rain.js" defer="defer"></script><title>毕设笔记(三)</title><meta name="generator" content="Hexo 7.3.0"></head><body itemscope="" itemtype="http://schema.org/WebPage"><div id="loading"><div class="cat"><div class="body"></div><div class="head"><div class="face"></div></div><div class="foot"><div class="tummy-end"></div><div class="bottom"></div><div class="legs left"></div><div class="legs right"></div></div><div class="paw"><div class="hands left"></div><div class="hands right"></div></div></div></div><div id="container"><header id="header" itemscope="" itemtype="http://schema.org/WPHeader"><div class="inner"><div id="brand"><div class="pjax"><h1 itemprop="name headline">毕设笔记(三)</h1><div class="meta"><span class="item" title="创建时间：2024-11-22 10:42:51"><span class="icon"><i class="ic i-calendar"></i></span><span class="text">发表于</span><time itemprop="dateCreated datePublished" datetime="2024-11-22T10:42:51+08:00">2024-11-22</time></span><span class="item" title="本文字数"><span class="icon"><i class="ic i-pen"></i></span><span class="text">本文字数</span><span>12k</span><span class="text">字</span></span><span class="item" title="阅读时长"><span class="icon"><i class="ic i-clock"></i></span><span class="text">阅读时长</span><span>11min</span></span></div></div></div><nav id="nav"><div class="inner"><div class="toggle"><div class="lines" aria-label="切换导航栏"><span class="line"></span><span class="line"></span><span class="line"></span></div></div><ul class="menu"><li class="item title"><a href="/miyano/" rel="start">Rei の 手帳</a></li></ul><ul class="right" id="rightNav"><li class="item theme"><i class="ic i-sun"></i></li><li class="item search"><i class="ic i-search"></i></li></ul></div></nav></div><div class="pjax" id="imgs"><ul><li class="item" style="background-image: url(&quot;https://cloudflare-imgbed-9os.pages.dev/file/eva_19.webp&quot;);"></li><li class="item" style="background-image: url(&quot;https://cloudflare-imgbed-9os.pages.dev/file/eva_25.webp&quot;);"></li><li class="item" style="background-image: url(&quot;https://cloudflare-imgbed-9os.pages.dev/file/eva_35.webp&quot;);"></li><li class="item" style="background-image: url(&quot;https://cloudflare-imgbed-9os.pages.dev/file/eva_25.webp&quot;);"></li><li class="item" style="background-image: url(&quot;https://cloudflare-imgbed-9os.pages.dev/file/eva_35.webp&quot;);"></li><li class="item" style="background-image: url(&quot;https://cloudflare-imgbed-9os.pages.dev/file/eva_27.webp&quot;);"></li></ul></div></header><div id="waves"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><main><div class="inner"><div class="pjax" id="main"><div class="article wrap"><div class="breadcrumb" itemlistelement="" itemscope="" itemtype="https://schema.org/BreadcrumbList"><i class="ic i-home"></i><span><a href="/miyano/">首页</a></span><i class="ic i-angle-right"></i><span class="current" itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/miyano/categories/Scientific-Notes/" itemprop="item" rel="index" title="分类于科研笔记"><span itemprop="name">科研笔记<meta itemprop="position" content="0"></span></a></span></div><article class="post block" itemscope="itemscope" itemtype="http://schema.org/Article" lang="zh-CN"><link itemprop="mainEntityOfPage" href="https://ei4869.github.io/miyano/Scientific-Notes/2024-11-22-%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0-%E4%B8%89/"><span hidden="hidden" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><meta itemprop="image" content="/miyano/assets/ai-icon.webp"><meta itemprop="name" content="Rei"><meta itemprop="description" content=", "></span><span hidden="hidden" itemprop="publisher" itemscope="itemscope" itemtype="http://schema.org/Organization"><meta itemprop="name" content="自分の為に楽しめ世界"></span><div class="body md" itemprop="articleBody"><hr>
+<h1 id="role-of-oxygen-vacancy-ordering-on-structure-and-reactivity-of-iron-doped-sr-based-perovskites-a-computational-study氧空位有序性对铁掺杂锶基钙钛矿结构和反应活性的影响一项计算研究"><a class="anchor" href="#role-of-oxygen-vacancy-ordering-on-structure-and-reactivity-of-iron-doped-sr-based-perovskites-a-computational-study氧空位有序性对铁掺杂锶基钙钛矿结构和反应活性的影响一项计算研究">#</a> Role of oxygen vacancy ordering on structure and reactivity of iron-doped Sr-based perovskites: A computational study (氧空位有序性对铁掺杂锶基钙钛矿结构和反应活性的影响：一项计算研究)</h1>
+<h2 id="研究内容"><a class="anchor" href="#研究内容">#</a> 研究内容：</h2>
+<ol>
+<li>研究对象：纯的 SrCoO3、SrFeO3 以及掺铁的 SrCo0.8Fe0.2O3 和 SrCoxFe1-xO3（x = 0.25, 0.50, 0.75）钙钛矿。</li>
+<li>研究方法：使用 DFT 方法比较了这些钙钛矿的电子性质，特别是铁掺杂对钙钛矿电子性质的影响。</li>
+<li>发现在 SrCo0.8Fe0.2O3 中，两个 FeO6 多面体插入 CoO6 多面体之间的结构相对更稳定。</li>
+<li>Fe 多面体相邻时会增强 Jahn-Teller 畸变，导致对称性降低。</li>
+<li>氧空位的影响：研究了有序氧空位对 SrCoO2.5、SrFeO2.5 以及掺铁的 SrCo0.8Fe0.2O2.5、SrCoxFe1-xO2.5 和 SrCoxFe1-xO2.75（x = 0.25, 0.50, 0.75）结构和反应活性的影响。</li>
+<li>通过电子密度分布图和 Bader 电荷分析来理解键合相互作用。</li>
+<li>功函数计算：计算了有无氧空位的钙钛矿的功函数，以预测导电行为。</li>
+<li>氢存储研究：将氢原子和氢分子引入钙钛矿的氧空位，以了解氢化钙钛矿的结构转变，并预测这些材料在氢存储中的潜在应用。</li>
+<li>水分子吸附：通过分子动力学模拟研究了水分子在 SrFeO3 片上的吸附，发现水分子分裂成羟基 (OH 根) 和质子，质子与表面氧原子结合，羟基离子占据表面的氧空位。</li>
+</ol>
+<ul>
+<li>密度泛函理论（Density Functional Theory，简称 DFT）是一种计算量子力学中电子结构的方法，它被广泛用于研究多电子体系的基态性质，一个多电子体系的基态性质可以通过其电子密度来唯一确定，而不是通过波函数。</li>
+<li>HER 机制是一个两电子转移过程（2H₂O + 2e⁻ → H₂ + 2OH⁻），这个反应动力学较慢，需要较高的能量输入，导致较大的过电位，通过设计和开发新材料来降低这一能量输入，通过催化这一反应。</li>
+</ul>
+<h2 id="实验结论"><a class="anchor" href="#实验结论">#</a> 实验结论：</h2>
+<p>通过 DFT 方法生成并优化了 SrCoxFe1-xO3-δ（SCF）钙钛矿的各种可能构型，包括不同 Fe 和 Co 的位置以及氧空位的排列。首先发现 SrCoO₃和 SrFeO₃的基态为金属态，具有零带隙，与氧空位相关的 SCF-0.25 和 SCF-0.50 呈现非金属特性。</p>
+<h2 id="钙钛矿在无氧空位和有氧空位情况下的可能配置和结构"><a class="anchor" href="#钙钛矿在无氧空位和有氧空位情况下的可能配置和结构">#</a> 钙钛矿在无氧空位和有氧空位情况下的可能配置和结构</h2>
+<hr>
+<p><strong>1. 无氧空位的钙钛矿配置</strong></p>
+<ul>
+<li>
+<p><strong>SrCo₀.₈Fe₀.₂O₃ 配置</strong>  ：</p>
+<ul>
+<li><strong>SCF-1 至 SCF-5</strong>（共 5 种配置）：
+<ul>
+<li><strong>构成</strong>：
+<ul>
+<li>SCF-1 至 SCF-4：Fe 和 Co 多面体随机分布，彼此较远。</li>
+<li>SCF-5：Fe 多面体相邻排列，形成两个 SrFeO₃单元嵌在 SrCoO₃中。</li>
+</ul>
+</li>
+<li><strong>特点</strong>：
+<ul>
+<li>SCF-5 是最稳定的（最低能量差为 0 kcal/mol）。</li>
+<li>SCF-5 中的 Fe-O 键长（1.92–1.97 Å）和 Co-O 键长（1.91–2.00 Å）比其他配置更分散。</li>
+<li>SCF-5 中存在 Jahn-Teller 畸变，降低了晶体对称性。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>SrCoₓFe₁₋ₓO₃ 配置</strong>（x=0.25, 0.50, 0.75）：</p>
+<ul>
+<li><strong>SCF-0.25</strong>：25% FeO₆嵌入 75% CoO₆。</li>
+<li><strong>SCF-0.50</strong>：50% FeO₆与 50% CoO₆交替排列（稳定结构中 Fe 多面体相邻）。</li>
+<li><strong>SCF-0.75</strong>：25% CoO₆嵌入 75% FeO₆。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>2. 含氧空位的钙钛矿配置</strong></p>
+<ul>
+<li>
+<p><strong>SrCo₀.₈Fe₀.₂O₂.₅ 配置</strong></p>
+<ul>
+<li><strong>氧空位生成方式</strong>：
+<ol>
+<li><strong>(a)</strong> MO₆八面体与 MO₄方形平面交替。</li>
+<li><strong>(b)</strong> 所有 MO₅方形锥。</li>
+<li><strong>(c)</strong> MO₆八面体与 MO₄方形平面邻接。</li>
+<li><strong>(d)</strong> MO₆八面体与 MO₅方形锥邻接。</li>
+<li><strong>(e)</strong> MO₆八面体与 MO₅方形锥共享金属中心。</li>
+</ol>
+</li>
+<li><strong>结构对比</strong>：
+<ul>
+<li><strong>SCF-5a</strong>（配置 a，Fe 多面体邻接）：最稳定。因为 FeO4 方形平面与 FeO6 八面体共享角，这有助于支持层间结构</li>
+<li><strong>SCF-1b 和 SCF-3b</strong>（配置 b，MO₅方形锥）：相对较稳定，比其他配置低 18.34 kcal/mol。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>SFO (SrFeO3) 和 SCO (SrCoO3) 配置</strong></p>
+<ul>
+<li>所有氧空位配置 (a-e) 对 SF 钙钛矿均为有利。</li>
+<li>在 SC 的情况下，形成 CoO5 方锥体的氧空位有序结构 (b) 相对稳定。</li>
+</ul>
+</li>
+<li>
+<p><strong>SrCoₓFe₁₋ₓO₂.₅ 配置</strong>（x=0.25, 0.50, 0.75）：</p>
+<ul>
+<li><strong>特点</strong>：
+<ul>
+<li>MO₆八面体与 MO₄方形平面或 MO₅方形锥交替排列。</li>
+<li>Fe 多面体邻接的结构更稳定。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>SrCoₓFe₁₋ₓO₂.₇₅ 配置</strong>（x=0.25, 0.50, 0.75）：</p>
+<ul>
+<li><strong>氧空位生成方式</strong>：
+<ul>
+<li>移除共享金属中心的氧原子。</li>
+<li>MO₆八面体与 MO₅方形锥交替排列。</li>
+</ul>
+</li>
+<li><strong>特点</strong>：
+<ul>
+<li>SCF-0.50 中，FeO₅方形锥相邻排列稳定性最高。</li>
+<li>CoO₅方形锥排列的配置能量较高，不稳定。</li>
+<li>上面两点即 SCF-0.50 结构中，FeO5 方锥嵌入 CoO6 八面体之间时表现出能量上的稳定性，而 CoO5 方锥嵌入 FeO6 八面体之间的结构则不稳定。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>3. 无氧空位与含氧空位结构的对比</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>配置 / 结构</strong></th>
+<th><strong>成分与排列</strong></th>
+<th><strong>特点</strong></th>
+<th><strong>稳定性</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SCF-1 至 SCF-5</strong></td>
+<td>Fe 和 Co 多面体的无氧空位排列</td>
+<td>SCF-5 中 Fe 多面体相邻排列，Jahn-Teller 畸变</td>
+<td>SCF-5 最稳定</td>
+</tr>
+<tr>
+<td><strong>SCF-0.25, 0.50, 0.75</strong></td>
+<td>不同比例 Fe/Co 多面体无氧排列</td>
+<td>SCF-0.50 中 Fe 多面体相邻排列最稳定</td>
+<td>SCF-0.50 更稳定</td>
+</tr>
+<tr>
+<td><strong>SCF-5a</strong></td>
+<td>Fe 多面体邻接，MO₆与 MO₄交替排列</td>
+<td>Fe-O-Fe 桥电荷转移，结构支撑性强</td>
+<td>含氧空位中最稳定</td>
+</tr>
+<tr>
+<td><strong>SCF-1b, 3b</strong></td>
+<td>MO₅方形锥排列</td>
+<td>能量比其他含氧空位配置低 18.34 kcal/mol</td>
+<td>次稳定</td>
+</tr>
+<tr>
+<td><strong>SCF-0.50 (O₂.₇₅)</strong></td>
+<td>FeO₅方形锥相邻排列</td>
+<td>带隙较大，化学稳定性更高</td>
+<td>含氧空位中最稳定</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>4. 总结</strong></p>
+<ul>
+<li><strong>无氧空位的稳定性</strong>：Fe 多面体邻接排列（SCF-5, SCF-0.50）结构最稳定。</li>
+<li><strong>含氧空位的稳定性</strong>：氧空位形成 MO₆八面体与 MO₄方形平面交替（SCF-5a），或 FeO₅方形锥相邻排列（SCF-0.50 (O₂.₇₅)）的结构更稳定。</li>
+<li><strong>氧空位和 Fe/Co 组成共同决定了钙钛矿的稳定性和电子特性</strong>，为钙钛矿设计提供了重要依据。</li>
+</ul>
+<p>del</p>
+<ol>
+<li>无氧空位的钙钛矿配置：
+<ul>
+<li>生成了 SrCo0.8Fe0.2O3 钙钛矿的 10x1x1 超胞结构，基于铁（Fe）位置的不同，创造了五种不同的配置（标记为 SCF-1 到 SCF-5）。研究 Co/Fe 位置对结构和电子性质的影响。</li>
+<li>所有这些钙钛矿配置在能量上相差不大（1.71 kcal/mol 以内），晶体结构为立方体，空间群为 Pm3m。</li>
+<li>通过比较实验和理论值，发现 SCF-5 配置（相邻 Fe 多面体由两个 SrFeO3 单元格结构插入 SrCoO3 之间）相对更稳定，这归因于：(a) Fe-O 和 Co-O 键距 (相对其他构型变化更大)、键角的微小变化 (相对其他构型更偏离 90°)；(b) 由于相邻 Fe 多面体的存在，这导致 Fe 和 O 之间通过 Fe–O–Fe–O 桥的电荷转移，此外，∠OFeO 和∠FeOFe 角接近理想的 180°，为 179.71°，这有助于通过 Fe–O–Fe 键进行电荷转移，导致 SCF-5 的结构畸变；(c) SCF-5 中的 Fe–Fe 和 Co–Co 相互作用增强了 Jahn-Teller 畸变，并降低了对称性。</li>
+</ul>
+</li>
+</ol>
+<h2 id="能带结构dos和pdos"><a class="anchor" href="#能带结构dos和pdos">#</a> 能带结构，DOS 和 PDOS</h2>
+<hr>
+<p><strong>1. 总体分析</strong></p>
+<ul>
+<li>文章通过计算带结构、态密度 (DOS) 和部分态密度 (PDOS)，研究了不同钙钛矿配置的电子特性。</li>
+<li>结果表明，不同配置和氧空位的引入对钙钛矿的金属性或非金属性具有重要影响。</li>
+</ul>
+<hr>
+<p><strong>2. 不同钙钛矿配置的带结构和 DOS 分析</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>配置 / 结构</strong></th>
+<th><strong>金属性 / 带隙</strong></th>
+<th><strong>电子态特性</strong></th>
+<th><strong>关键发现</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SrCoO₃ (SC)</strong></td>
+<td>金属态，零带隙</td>
+<td>d 轨道的未配对电子占据费米能级附近</td>
+<td>Co 的 3d 轨道提升了费米能级</td>
+</tr>
+<tr>
+<td><strong>SrFeO₃ (SF)</strong></td>
+<td>金属态，零带隙</td>
+<td>Fe 的 3d 轨道占据费米能级</td>
+<td>Fe 的贡献导致费米能级略低于 SC</td>
+</tr>
+<tr>
+<td><strong>SrCo₀.₈Fe₀.₂O₃ (SCF-5)</strong></td>
+<td>金属态，零带隙</td>
+<td>Fe 和 Co 的 d 轨道共同作用</td>
+<td>Fe 掺杂增加了费米能级附近的电子态密度</td>
+</tr>
+<tr>
+<td><strong>SrCoₓFe₁₋ₓO₂.₇₅ (x=0.25, 0.50, 0.75)</strong></td>
+<td>SCF-0.25: 非金属，带隙 0.17 eV<br>SCF-0.50: 非金属，带隙 0.74 eV<br>SCF-0.75: 金属态</td>
+<td>Fe 或 Co 的 3d 轨道主导费米能级附近态密度</td>
+<td>SCF-0.50 的较大带隙表明其更高的化学稳定性</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>3. 态密度 (DOS) 和分态密度 (PDOS) 分析</strong></p>
+<ul>
+<li><strong>主要态密度来源</strong>：
+<ul>
+<li>Co 和 Fe 的 d 轨道对费米能级的贡献最大，体现了强金属性。</li>
+<li>氧空位引入后，费米能级附近的氧 2p 态对电子性质有显著影响。</li>
+</ul>
+</li>
+<li><strong>氧空位的作用</strong>：
+<ul>
+<li>氧空位在 SF、SC 和 SCF 中引入新的电子态密度，增加费米能级附近的态密度，保持金属态。</li>
+<li>SCF-0.25 和 SCF-0.50 中，氧空位引入了带隙，导致材料的非金属性。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>4. 总结</strong></p>
+<ul>
+<li><strong>金属性与非金属性</strong>：
+<ul>
+<li>SrCoₓFe₁₋ₓO₃配置均为金属态。</li>
+<li>SrCoₓFe₁₋ₓO₂.₇₅配置中，氧空位引入带隙，使 SCF-0.25 和 SCF-0.50 呈现非金属性。</li>
+</ul>
+</li>
+<li><strong>稳定性</strong>：
+<ul>
+<li>带隙较大的 SCF-0.50 具有更高的化学稳定性，适合作为非金属功能材料。</li>
+</ul>
+</li>
+<li><strong>氧空位和成分调控</strong>：
+<ul>
+<li>氧空位通过改变电子态和费米能级，显著影响钙钛矿的导电性和化学稳定性。</li>
+</ul>
+</li>
+</ul>
+<h2 id="光电特性"><a class="anchor" href="#光电特性">#</a> 光电特性</h2>
+<hr>
+<p><strong>1. 总体分析</strong></p>
+<ul>
+<li>研究了不同钙钛矿配置的功函数，以理解氧空位和成分调控对光电性能和导电性的影响。</li>
+<li>功函数的高低直接反映材料的电子释放能力，与其导电性和催化性能密切相关。</li>
+</ul>
+<hr>
+<p><strong>2. 功函数与导电性的关系</strong></p>
+<ul>
+<li>
+<p><strong>导电行为</strong>：</p>
+<ul>
+<li><strong>SrFeO₃ (SF)</strong> 和 <strong>SrCoO₃ (SC)</strong> 均表现出金属性，功函数较高（SC &gt; SF）。</li>
+<li><strong>SrCoₓFe₁₋ₓO₂.₅ (SCF-5a)</strong> 显示较低功函数，导电性较强。</li>
+<li><strong>SrCoₓFe₁₋ₓO₂.₇₅</strong> 的功函数随氧空位的引入和成分变化发生显著变化：
+<ul>
+<li>SCF-0.50 功函数最高，表现出非导电性。</li>
+<li>SCF-0.25 和 SCF-0.75 功函数较低，仍具有导电性。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>氧空位的影响</strong>：</p>
+<ul>
+<li>氧空位导致金属阳离子（如 Co 和 Fe）的氧化态降低，从而降低功函数。</li>
+<li>不同氧空位排列的配位环境（如 MO₆八面体、MO₅方形锥）显著影响材料的电子结构和光电性能。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>3. 不同配置之间的对比分析</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>配置 / 结构</strong></th>
+<th><strong>功函数趋势</strong></th>
+<th><strong>导电性</strong></th>
+<th><strong>氧空位与成分作用</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SC (SrCoO₃)</strong></td>
+<td>功函数高于 SF，3.84 eV</td>
+<td>金属态，导电性较强</td>
+<td>Co 引入额外电子，提高费米能级，增加功函数</td>
+</tr>
+<tr>
+<td><strong>SF (SrFeO₃)</strong></td>
+<td>功函数较高，3.61 eV</td>
+<td>金属态，导电性强</td>
+<td>Fe 电子贡献占主导，Fe 的电子密度较高，功函数较大</td>
+</tr>
+<tr>
+<td><strong>SF-b(SrFeO₂.₅)</strong></td>
+<td>功函数最低</td>
+<td>金属态，导电性最强</td>
+<td>氧空位的存在引入了额外的电子，使得 Fe 中心的 3d 电子能级向更低的能量移动，从而降低功函数</td>
+</tr>
+<tr>
+<td><strong>SCF-5 (SrCo₀.₈Fe₀.₂O₃)</strong></td>
+<td>功函数低于 SF 和 SC，3.22eV</td>
+<td>金属态，导电性适中</td>
+<td>Fe 掺杂引入电子态，降低功函数，增加电子释放能力</td>
+</tr>
+<tr>
+<td><strong>SCF-5a (SrCoₓFe₁₋ₓO₂.₅)</strong></td>
+<td>功函数较低 (较 SCF-1b 低)</td>
+<td>导电性较强</td>
+<td>Fe 和 O 特殊配位环境，降低功函数</td>
+</tr>
+<tr>
+<td><strong>SCF-0.25 (SrCoₓFe₁₋ₓO₂.₇₅ (x=0.25))</strong></td>
+<td>功函数较无氧空位降低 0.16 eV</td>
+<td>仍表现导电性</td>
+<td>氧空位引入新电子态，降低功函数</td>
+</tr>
+<tr>
+<td><strong>SCF-0.50 (SrCoₓFe₁₋ₓO₂.₇₅ (x=0.50))</strong></td>
+<td>功函数较无氧空位提高 0.49 eV</td>
+<td>非导电性</td>
+<td>FeO₅方形锥相邻排列，导致较大功函数</td>
+</tr>
+<tr>
+<td><strong>SCF-0.75 (SrCoₓFe₁₋ₓO₂.₇₅ (x=0.75))</strong></td>
+<td>功函数较无氧空位降低 0.16 eV</td>
+<td>仍表现导电性</td>
+<td>CoO₅与 FeO₅方形锥交替排列，降低功函数</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>4. 总结</strong></p>
+<ul>
+<li>氧空位和成分调控（Fe/Co 比例）通过改变金属阳离子的电子分布和配位环境，显著影响功函数。</li>
+</ul>
+<h2 id="bader-电荷分析"><a class="anchor" href="#bader-电荷分析">#</a> Bader 电荷分析</h2>
+<hr>
+<p><strong>1. 总体分析</strong></p>
+<ul>
+<li>Bader 电荷分析用于量化钙钛矿中各原子的电荷分布，揭示电子的转移和材料的电子特性。</li>
+<li>分析显示，钙钛矿中的电荷分布受到氧空位、阳离子组成（Fe/Co 比）以及配位环境的显著影响。</li>
+</ul>
+<hr>
+<p><strong>2. 氧空位对电荷分布的影响</strong></p>
+<ol>
+<li>
+<p><strong>氧阴离子的电荷变化</strong>：</p>
+<ul>
+<li>氧空位增加了氧阴离子的电子密度。</li>
+<li>SC-b 和 SF-b 中的氧电荷为 - 1.42 至 - 1.45 e，比无氧空位的 SC 和 SF 显著更负。</li>
+<li>SCF-5a 和 SCF-1b 中氧电荷在 - 1.32 至 - 1.37 e 之间，低于 SC-b 和 SF-b。</li>
+</ul>
+</li>
+<li>
+<p><strong>金属阳离子的电荷变化</strong>：</p>
+<ul>
+<li>氧空位降低了金属阳离子的电荷：
+<ul>
+<li>Co 电荷：从 + 1.49（SC）降低至 + 1.26（SCF-5a）。</li>
+<li>Fe 电荷：从 + 1.57（SF）降低至 + 1.48（SCF-1b）。</li>
+</ul>
+</li>
+<li>阳离子电荷的降低反映出电子从金属阳离子转移到氧阴离子。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<p><strong>3. 配置之间的对比</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>配置 / 结构</strong></th>
+<th><strong>电荷转移特点</strong></th>
+<th><strong>氧空位的作用</strong></th>
+<th><strong>电子分布的特性</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SC (SrCoO₃)</strong></td>
+<td>Co 向 O 转移电子较少，电荷偏离纯离子态</td>
+<td>无氧空位，电荷分布均匀</td>
+<td>部分离子和共价结合，Co-O 特性更显著</td>
+</tr>
+<tr>
+<td><strong>SF (SrFeO₃)</strong></td>
+<td>Fe 向 O 转移更多电子，离子 - 共价混合特性更强</td>
+<td>无氧空位，电子分布均匀</td>
+<td>Fe-O 之间更高的电荷转移</td>
+</tr>
+<tr>
+<td><strong>SCF-5 (SrCo₀.₈Fe₀.₂O₃)</strong></td>
+<td>Co 和 Fe 均向 O 转移更多电子，增强 O 电荷</td>
+<td>无氧空位，Fe 掺杂增强电子转移</td>
+<td>Fe 和 Co 共同作用，电荷分布更集中</td>
+</tr>
+<tr>
+<td><strong>SC-b (O₂.₅)</strong></td>
+<td>氧空位增加 O 电荷密度，降低 Co 电荷转移</td>
+<td>氧空位改变 Co 配位环境，增强 O 吸引电子能力</td>
+<td>缺陷周围电子分布不均</td>
+</tr>
+<tr>
+<td><strong>SF-b (O₂.₅)</strong></td>
+<td>Fe 电荷降低，O 电荷增加</td>
+<td>氧空位导致 Fe-O 键中离子特性增强</td>
+<td>电荷更偏离共价结合</td>
+</tr>
+<tr>
+<td><strong>SCF-5a (O₂.₅)</strong></td>
+<td>Co 和 Fe 电荷最低，氧空位增强 O 电荷密度</td>
+<td>缺陷结构稳定，增强离子结合特性</td>
+<td>O 电荷集中分布在缺陷附近</td>
+</tr>
+<tr>
+<td><strong>SCF-1b (O₂.₅)</strong></td>
+<td>电荷均匀分布，但缺陷处电子密度较高</td>
+<td>氧空位的存在使电荷偏向 O 的孤对电子轨道</td>
+<td>配置更趋于稳定</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>4. 关键结论</strong></p>
+<ol>
+<li>
+<p><strong>电荷转移机制</strong>：</p>
+<ul>
+<li>无氧空位时，Co 和 Fe 电荷较高，表明部分离子 - 共价结合特性。</li>
+<li>氧空位引入后，氧阴离子电荷密度增加，金属阳离子电荷降低，增强离子特性。</li>
+</ul>
+</li>
+<li>
+<p><strong>氧空位的作用</strong>：</p>
+<ul>
+<li>氧空位在 SC-b 和 SF-b 中显著增强了 O 的吸电子能力，降低了金属阳离子电荷。</li>
+<li>SCF-5a 中的氧空位配置导致 Co 和 Fe 的电荷显著降低，增强了结构的离子结合特性。</li>
+</ul>
+</li>
+</ol>
+<h2 id="氢化钙钛矿"><a class="anchor" href="#氢化钙钛矿">#</a> 氢化钙钛矿</h2>
+<hr>
+<p><strong>1. 总体分析</strong></p>
+<ul>
+<li>探讨了在氧空位钙钛矿中引入氢原子（H）、氢分子（H₂）以及水分子后的氢化行为。</li>
+<li>氢化后，材料的结构稳定性、金属 - 氢键合特性和电子分布发生显著变化，展现出潜在的储氢能力和催化特性。</li>
+</ul>
+<hr>
+<p><strong>2. 氢化行为的主要结果</strong><br>
+<strong>氢引入形式</strong></p>
+<ul>
+<li><strong>氢原子</strong>：占据氧空位位点，与金属或氧形成稳定键。</li>
+<li><strong>氢分子</strong>：进入氧空位位点，可能保持 H₂分子形态或分解成单原子形式。</li>
+<li><strong>水分子</strong>：在氧空位表面发生分解，形成氢氧根（OH⁻）和质子（H⁺）。</li>
+</ul>
+<hr>
+<p><strong>3. 氢化后不同配置的对比分析</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>配置 / 结构</strong></th>
+<th><strong>氢引入形式</strong></th>
+<th><strong>氢化后结构稳定性</strong></th>
+<th><strong>金属 - 氢键合特性</strong></th>
+<th><strong>电子分布和键长</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SF-b (O₂.₅)</strong></td>
+<td>H, H₂</td>
+<td>稳定，氢化能量 1.5-5 eV</td>
+<td>Fe-H 键形成，Fe 多面体变形</td>
+<td>Fe-H 键长：1.71 Å 和 2.29 Å</td>
+</tr>
+<tr>
+<td><strong>SC-b (O₂.₅)</strong></td>
+<td>H, H₂</td>
+<td>选择性氢化，CoO₅方形锥氢化稳定</td>
+<td>Co-H 键形成，呈等长桥键</td>
+<td>Co-H 键长：1.78 Å 和 1.79 Å</td>
+</tr>
+<tr>
+<td><strong>SCF-1b (O₂.₅)</strong></td>
+<td>H, H₂</td>
+<td>选择性氢化，含有 MO₆八面体与 MO₅方锥结构交错的配置氢化稳定</td>
+<td>Co-H 和 Fe-H 键分别形成</td>
+<td>Co-H 键长：1.74 Å，Fe-H 键长：1.97 Å</td>
+</tr>
+<tr>
+<td><strong>SCF-0.25 (O₂.₇₅)</strong></td>
+<td>H₂</td>
+<td>氢分子保持 H₂形态，桥接于 Co 和 Fe 之间，位于 CoO5 和 FeO5 方锥之间，这两者与 FeO6 八面体交错排列</td>
+<td>Co-H-Co 桥键形成</td>
+<td>H-H 键长：0.80 Å，H 电子密度：0.55 e</td>
+</tr>
+<tr>
+<td><strong>SCF-0.50 (O₂.₇₅)</strong></td>
+<td>H₂</td>
+<td>H₂分子稳定结合，但未完全分解，位于两个 FeO5 方锥之间，这两者与 CoO6 八面体交错排列</td>
+<td>Fe-H 桥键形成，部分保留 H-H 键</td>
+<td>H-H 键长：0.78 Å，H 电子密度：0.54 e</td>
+</tr>
+<tr>
+<td><strong>SCF-0.75 (O₂.₇₅)</strong></td>
+<td>H</td>
+<td>H 原子占据位于 CoO5 和 FeO5 方锥之间，且这两者与 CoO6 八面体交错排列</td>
+<td>Co-H 和 Fe-H 混合键合</td>
+<td>Co-H 键长：1.74 Å，Fe–H 键长：1.97 Å，H 电子密度：0.57 e</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>4. 水分子引入和分解</strong></p>
+<ul>
+<li>在氧空位的 SF 表面引入水分子，通过分子动力学模拟发现：
+<ul>
+<li>水分子分解为 OH⁻和 H⁺，其中 H⁺与表面氧结合形成 O-H 键（键长 0.91 Å）。</li>
+<li>氢氧根填充氧空位，同时质子在表面氧之间迁移，形成动态键合网络。</li>
+<li>最终，氧空位被 OH⁻占据，水分解促进了氧表面活性。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>5. 配置与应用潜力分析</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>配置 / 结构</strong></th>
+<th><strong>氢化行为特点</strong></th>
+<th><strong>潜在应用</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SF-b (O₂.₅)</strong></td>
+<td>氢化能量高，Fe-H 键稳定</td>
+<td>储氢和催化应用</td>
+</tr>
+<tr>
+<td><strong>SC-b (O₂.₅)</strong></td>
+<td>CoO₅方形锥优先结合 H₂</td>
+<td>HER（析氢反应）催化</td>
+</tr>
+<tr>
+<td><strong>SCF-1b/5a (O₂.₅)</strong></td>
+<td>氢原子结合稳定，能量低</td>
+<td>可作为储氢材料，适用于动态储能系统</td>
+</tr>
+<tr>
+<td><strong>SCF-0.25/0.50 (O₂.₇₅)</strong></td>
+<td>H₂分子部分分解，形成桥接结构</td>
+<td>高效 HER 催化剂</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>6. 总结</strong></p>
+<ul>
+<li>氢原子优先占据氧空位形成稳定的金属 - 氢键；氢分子可能保持完整或部分分解。</li>
+</ul>
+<h2 id="主要结论总结"><a class="anchor" href="#主要结论总结">#</a> 主要结论总结</h2>
+<hr>
+<p><strong>1. 研究重点</strong></p>
+<ul>
+<li>研究了铁掺杂的 Sr 基钙钛矿（SrCoₓFe₁₋ₓO₃-δ）在不同氧空位排列下的结构和电子特性。</li>
+<li>探讨了铁掺杂位置、组成和氧空位对钙钛矿的结构稳定性、电子特性及反应性的影响，尤其是其在析氢反应（HER）中的潜在应用。</li>
+</ul>
+<hr>
+<p><strong>2. 主要结论</strong></p>
+<ol>
+<li>
+<p><strong>铁掺杂对结构和电子特性的影响</strong>：</p>
+<ul>
+<li>铁掺杂倾向于形成 Fe 多面体相邻排列的结构，有助于提高结构稳定性。</li>
+<li>铁的掺杂及其位置显著影响钙钛矿的电子带结构和费米能级分布。</li>
+</ul>
+</li>
+<li>
+<p><strong>氧空位的作用</strong>：</p>
+<ul>
+<li>氧空位的引入显著改变了钙钛矿的电子分布和化学性质：
+<ul>
+<li>SCF-0.25 和 SCF-0.50 由于氧空位的引入表现出非金属性，具有较大的带隙。</li>
+<li>SCF-0.50 的较大带隙（0.74 eV）提高了化学稳定性。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>析氢反应中的中间体稳定性</strong>：</p>
+<ul>
+<li>含氧空位的铁掺杂钙钛矿对 HER 中的中间体具有良好的稳定性。</li>
+<li>Fe 的位置和氧空位排列对析氢反应的催化性能至关重要。</li>
+</ul>
+</li>
+<li>
+<p><strong>氢化后的特性</strong>：</p>
+<ul>
+<li>含氧空位的钙钛矿能够选择性结合氢原子和氢分子。</li>
+<li>不同氧空位排列显著影响金属 - 氢键的结合模式和电子分布。</li>
+</ul>
+</li>
+<li>
+<p><strong>水分解行为</strong>：</p>
+<ul>
+<li>在氧空位的钙钛矿表面，水分子能够分解为氢氧根离子和质子，并通过氧空位迁移，增强表面催化活性。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="pdf展示"><a class="anchor" href="#pdf展示">#</a> PDF 展示：</h2>
+<p>pdf /pdf/S0022459622008593_main.pdf</p>
+<hr>
+<div class="tags"><a href="/miyano/tags/%E6%AF%95%E8%AE%BE/" rel="tag"><i class="ic i-tag"></i>毕设</a></div></div><footer><div class="meta"><span class="icon"><i class="ic i-eye"></i></span><span>此文章已被阅读次数:</span><span class="waline-pageview-count" id="twikoo_visitors" data-path="/Scientific-Notes/2024-11-22-毕设笔记-三/">正在加载...</span><span class="item"><span class="icon"><i class="ic i-calendar-check"></i></span><span class="text">更新于</span><time title="修改时间：2024-11-22 17:45:40" itemprop="dateModified" datetime="2024-11-22T17:45:40+08:00">2024-11-22</time></span></div><div id="copyright"><ul><li class="author"><strong>本文作者：</strong>Rei<i class="ic i-at"><em>@</em></i>自分の為に楽しめ世界</li><li class="link"><strong>本文链接：</strong><a href="https://ei4869.github.io/miyano/Scientific-Notes/2024-11-22-%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0-%E4%B8%89/" title="毕设笔记(三)">https://ei4869.github.io/miyano/Scientific-Notes/2024-11-22-毕设笔记-三/</a></li><li class="license"><strong>版权声明：</strong>本站所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li></ul></div></footer></article></div><div class="post-nav"><div class="item left"><a href="/miyano/Scientific-Notes/2024-11-21-%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0-%E4%BA%8C/" rel="prev" itemprop="url" data-background-image="https://cloudflare-imgbed-9os.pages.dev/file/eva_23.webp" title="毕设笔记(二)"><span class="type">上一篇</span><span class="category"><i class="ic i-flag"></i>科研笔记</span><h3>毕设笔记(二)</h3></a></div><div class="item right"><a href="/miyano/Scientific-Notes/%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0%E5%9B%9B/" rel="next" itemprop="url" data-background-image="https://cloudflare-imgbed-9os.pages.dev/file/eva_27.webp" title="毕设笔记(四)"><span class="type">下一篇</span><span class="category"><i class="ic i-flag"></i>科研笔记</span><h3>毕设笔记(四)</h3></a></div></div><div class="wrap" id="comments"></div></div><div id="sidebar"><div class="inner"><div class="panels"><div class="inner"><div class="contents panel pjax" data-title="文章目录"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#role-of-oxygen-vacancy-ordering-on-structure-and-reactivity-of-iron-doped-sr-based-perovskites-a-computational-study%E6%B0%A7%E7%A9%BA%E4%BD%8D%E6%9C%89%E5%BA%8F%E6%80%A7%E5%AF%B9%E9%93%81%E6%8E%BA%E6%9D%82%E9%94%B6%E5%9F%BA%E9%92%99%E9%92%9B%E7%9F%BF%E7%BB%93%E6%9E%84%E5%92%8C%E5%8F%8D%E5%BA%94%E6%B4%BB%E6%80%A7%E7%9A%84%E5%BD%B1%E5%93%8D%E4%B8%80%E9%A1%B9%E8%AE%A1%E7%AE%97%E7%A0%94%E7%A9%B6"><span class="toc-number">1.</span> <span class="toc-text"> Role of oxygen vacancy ordering on structure and reactivity of iron-doped Sr-based perovskites: A computational study (氧空位有序性对铁掺杂锶基钙钛矿结构和反应活性的影响：一项计算研究)</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%A0%94%E7%A9%B6%E5%86%85%E5%AE%B9"><span class="toc-number">1.1.</span> <span class="toc-text"> 研究内容：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9E%E9%AA%8C%E7%BB%93%E8%AE%BA"><span class="toc-number">1.2.</span> <span class="toc-text"> 实验结论：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%92%99%E9%92%9B%E7%9F%BF%E5%9C%A8%E6%97%A0%E6%B0%A7%E7%A9%BA%E4%BD%8D%E5%92%8C%E6%9C%89%E6%B0%A7%E7%A9%BA%E4%BD%8D%E6%83%85%E5%86%B5%E4%B8%8B%E7%9A%84%E5%8F%AF%E8%83%BD%E9%85%8D%E7%BD%AE%E5%92%8C%E7%BB%93%E6%9E%84"><span class="toc-number">1.3.</span> <span class="toc-text"> 钙钛矿在无氧空位和有氧空位情况下的可能配置和结构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%83%BD%E5%B8%A6%E7%BB%93%E6%9E%84dos%E5%92%8Cpdos"><span class="toc-number">1.4.</span> <span class="toc-text"> 能带结构，DOS 和 PDOS</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%89%E7%94%B5%E7%89%B9%E6%80%A7"><span class="toc-number">1.5.</span> <span class="toc-text"> 光电特性</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#bader-%E7%94%B5%E8%8D%B7%E5%88%86%E6%9E%90"><span class="toc-number">1.6.</span> <span class="toc-text"> Bader 电荷分析</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B0%A2%E5%8C%96%E9%92%99%E9%92%9B%E7%9F%BF"><span class="toc-number">1.7.</span> <span class="toc-text"> 氢化钙钛矿</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%BB%E8%A6%81%E7%BB%93%E8%AE%BA%E6%80%BB%E7%BB%93"><span class="toc-number">1.8.</span> <span class="toc-text"> 主要结论总结</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#pdf%E5%B1%95%E7%A4%BA"><span class="toc-number">1.9.</span> <span class="toc-text"> PDF 展示：</span></a></li></ol></li></ol></div><div class="related panel pjax" data-title="系列文章"><ul><li><a href="/miyano/Scientific-Notes/2024-11-20-%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0-%E4%B8%80/" rel="bookmark" title="毕设笔记(一)">毕设笔记(一)</a></li><li><a href="/miyano/Scientific-Notes/2024-11-21-%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0-%E4%BA%8C/" rel="bookmark" title="毕设笔记(二)">毕设笔记(二)</a></li><li class="active"><a href="/miyano/Scientific-Notes/2024-11-22-%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0-%E4%B8%89/" rel="bookmark" title="毕设笔记(三)">毕设笔记(三)</a></li><li><a href="/miyano/Scientific-Notes/%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0%E5%9B%9B/" rel="bookmark" title="毕设笔记(四)">毕设笔记(四)</a></li></ul></div><div class="overview panel" data-title="站点概览"><div class="author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><img class="image" loading="lazy" decoding="async" itemprop="image" alt="Rei" src="/miyano/assets/ai-icon.webp"><p class="name" itemprop="name">Rei</p><div class="description" itemprop="description"></div></div><nav class="state"><div class="item posts"><a href="/miyano/archives/"><span class="count">14</span><span class="name">文章</span></a></div><div class="item categories"><a href="/miyano/categories/"><span class="count">3</span><span class="name">分类</span></a></div><div class="item tags"><a href="/miyano/tags/"><span class="count">6</span><span class="name">标签</span></a></div></nav><div class="social"><a target="_blank" rel="noopener" href="https://github.com/ei4869" class="item github" title="https://github.com/ei4869"><i class="ic i-github"></i></a><a href="mailto:ai4869@gmail.com" class="item email" title="mailto:ai4869@gmail.com"><i class="ic i-envelope"></i></a></div><div class="menu"><li class="item"><a href="/miyano/" rel="section"><i class="ic i-home"></i>首页</a></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-feather"></i>文章</a><ul class="submenu"><li class="item"><a href="/miyano/archives/" rel="section"><i class="ic i-list-alt"></i>归档</a></li><li class="item"><a href="/miyano/categories/" rel="section"><i class="ic i-th"></i>分类</a></li><li class="item"><a href="/miyano/tags/" rel="section"><i class="ic i-tags"></i>标签</a></li></ul></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-baibaoxiang"></i>宝箱</a><ul class="submenu"><li class="item"><a href="/miyano/gallery/" rel="section"><i class="ic i-xiangce"></i>相册</a></li><li class="item"><a href="/miyano/anime/" rel="section"><i class="ic i-pc-dongman"></i>追番</a></li></ul></li><li class="item"><a href="/miyano/about/" rel="section"><i class="ic i-user"></i>关于</a></li></div></div></div></div><ul id="quick"><li class="prev pjax"><a href="/miyano/Scientific-Notes/%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0%E5%9B%9B/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a></li><li class="up"><i class="ic i-arrow-up"></i></li><li class="down"><i class="ic i-arrow-down"></i></li><li class="next pjax"><a href="/miyano/Scientific-Notes/2024-11-21-%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0-%E4%BA%8C/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a></li><li class="percent"></li></ul></div></div><div class="dimmer"></div></div></main><footer id="footer"><div class="inner"><div class="widgets"><div class="rpost pjax"><h2>随机文章</h2><ul><li class="item"><div class="breadcrumb"><a href="/miyano/categories/Literature-Translation/" title="分类于文献翻译">文献翻译</a></div><span><a href="/miyano/Literature-Translation/2024-11-24-%E6%96%87%E7%8C%AE%E7%BF%BB%E8%AF%91-%E4%B8%80/">文献翻译(一)</a></span></li><li class="item"><div class="breadcrumb"><a href="/miyano/categories/Playful-Exploration/" title="分类于整活探索">整活探索</a></div><span><a href="/miyano/Playful-Exploration/shokaX%E4%B8%BB%E9%A2%98%E7%AC%94%E8%AE%B0/">shokaX主题-笔记</a></span></li><li class="item"><div class="breadcrumb"><a href="/miyano/categories/Literature-Translation/" title="分类于文献翻译">文献翻译</a></div><span><a href="/miyano/Literature-Translation/2024-12-09-%E6%96%87%E7%8C%AE%E7%BF%BB%E8%AF%91-%E4%B8%83/">文献翻译(七)</a></span></li><li class="item"><div class="breadcrumb"><a href="/miyano/categories/Literature-Translation/" title="分类于文献翻译">文献翻译</a></div><span><a href="/miyano/Literature-Translation/2024-12-06-%E6%96%87%E7%8C%AE%E7%BF%BB%E8%AF%91-%E5%85%AD/">文献翻译(六)</a></span></li><li class="item"><div class="breadcrumb"><a href="/miyano/categories/Scientific-Notes/" title="分类于科研笔记">科研笔记</a></div><span><a href="/miyano/Scientific-Notes/2024-11-22-%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0-%E4%B8%89/">毕设笔记(三)</a></span></li></ul></div><div class="rpost pjax"><h2>最新评论</h2><ul class="leancloud-recent-comment" id="new-comment"></ul></div></div><div style="width: 100%; text-align: center;"><span id="time">此站已存活 0 天 0 小时 0 分 0 秒</span></div><script src="/miyano/js/create-time.js" defer="defer"></script><div class="status"><div class="copyright">© 2024 -<span itemprop="copyrightYear">2025</span><span class="with-love"><i class="ic i-sakura rotate"></i></span><span class="author" itemprop="copyrightHolder">Rei @ Rei の 手帳</span></div><div class="count"><span class="post-meta-item-icon"><i class="ic i-chart-area"></i></span><span title="站点总字数">201k 字</span><span class="post-meta-divider"> | </span><span class="post-meta-item-icon"><i class="ic i-coffee"></i></span><span title="站点阅读时长">3h2min</span></div><div class="powered-by">基于 <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> &amp; Theme.<a target="_blank" rel="noopener" href="https://github.com/theme-shoka-x/hexo-theme-shokaX/">ShokaX</a></div></div></div></footer></div><script data-config="" type="text/javascript">var LOCAL = {
+    ispost: true,
+        path: `Scientific-Notes/2024-11-22-毕设笔记-三/`,
+        favicon: {
+        show: `（●´3｀●）萌え萌えキュン`,
+        hide: `(´Д｀)大変だ！`
+    },
+    search: {
+        placeholder: "文章搜索",
+        empty: "关于 「 ${query} 」，什么也没搜到",
+        stats: "${time} ms 内找到 ${hits} 条结果"
+    },
+    copy_tex: false,
+    katex: false,
+    mermaid: false,
+    audio: undefined,
+    fancybox: true,
+    nocopy: false,
+    outime: true,
+    template: `<div class="note warning"><p><span class="label warning">文章时效性提示</span><br>这是一篇发布于 {{publish}} 天前，最后一次更新在 {{updated}} 天前的文章，部分信息可能已经发生改变，请注意甄别。</p></div>`,
+    quiz: {
+        choice: `单选题`,
+        multiple: `多选题`,
+        true_false: `判断题`,
+        essay: `问答题`,
+        gap_fill: `填空题`,
+        mistake: `错题备注`
+    },
+    ignores: [
+        (uri) => uri.includes('#'),
+        (uri) => new RegExp(LOCAL.path + '$').test(uri),
+            []
+    ]
+};
+</script><script src="https://s4.zstatic.net/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous" fetchpriority="high"></script><script src="https://s4.zstatic.net/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous" fetchpriority="high"></script><script src="/miyano/js/siteInit.js?v=0.4.17" type="module" fetchpriority="high" defer=""></script></body></html>

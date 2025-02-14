@@ -1,0 +1,642 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"><meta name="theme-color" content="#222"><meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"><meta name="renderer" content="webkit"><link rel="icon" type="image/ico" sizes="32x32" href="/miyano/assets/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/miyano/assets/apple-touch-icon.png"><link rel="alternate" href="/miyano/rss.xml" title="自分の為に楽しめ世界" type="application/rss+xml"><link rel="alternate" href="/miyano/atom.xml" title="自分の為に楽しめ世界" type="application/atom+xml"><link rel="alternate" type="application/json" title="自分の為に楽しめ世界" href="https://ei4869.github.io/miyano/feed.json"><link rel="preconnect" href="https://s4.zstatic.net"><link rel="preconnect" href="https://at.alicdn.com"><link rel="preconnect" href="https://cloudflare-imgbed-9os.pages.dev"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CFredericka%20the%20Great:400,400italic,700,700italic%7CNoto%20Serif%20JP:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic%7CInconsolata:400,400italic,700,700italic&amp;display=swap&amp;subset=latin,latin-ext" media="none" onload="this.media='all'"><link rel="stylesheet" href="/miyano/css/app.css?v=0.4.17"><link rel="modulepreload" href="/miyano/js/chunk-352Z26K4.js"><link rel="modulepreload" href="/miyano/js/chunk-4ZFZY26B.js"><link rel="modulepreload" href="/miyano/js/chunk-BN4F4JMV.js"><link rel="modulepreload" href="/miyano/js/chunk-KABY3TZQ.js"><link rel="modulepreload" href="/miyano/js/chunk-RC7JEBHY.js"><link rel="modulepreload" href="/miyano/js/chunk-WIQECBEN.js"><link rel="modulepreload" href="/miyano/js/comments-F4ZK44WD.js"><link rel="modulepreload" href="/miyano/js/copy-tex-BIQFBMCI.js"><link rel="modulepreload" href="/miyano/js/index.esm-6Q7BVENK.js"><link rel="modulepreload" href="/miyano/js/post-WKBV5WBX.js"><link rel="modulepreload" href="/miyano/js/quicklink-2D2A767I.js"><link rel="modulepreload" href="/miyano/js/search-4CQPMKYW.js"><link rel="modulepreload" href="/miyano/js/siteInit.js"><link rel="modulepreload" href="/miyano/js/waline-NVSVNCZW.js"><link rel="stylesheet" href="/miyano/css/comments-LAB2J3GR.css" media="none" onload="this.media='all'"><link rel="stylesheet" href="/miyano/css/siteInit.css" media="none" onload="this.media='all'"><link rel="stylesheet" href="/miyano/css/waline-7JVHAYE3.css" media="none" onload="this.media='all'"><link rel="preload" href="https://cloudflare-imgbed-9os.pages.dev/file/eva_18.webp" as="image" fetchpriority="high"><link rel="preload" href="https://cloudflare-imgbed-9os.pages.dev/file/eva_25.webp" as="image" fetchpriority="high"><link rel="preload" href="https://cloudflare-imgbed-9os.pages.dev/file/eva_19.webp" as="image" fetchpriority="high"><link rel="preload" href="https://cloudflare-imgbed-9os.pages.dev/file/eva_35.webp" as="image" fetchpriority="high"><link rel="preload" href="https://cloudflare-imgbed-9os.pages.dev/file/eva_35.webp" as="image" fetchpriority="high"><link rel="preload" href="https://cloudflare-imgbed-9os.pages.dev/file/eva_25.webp" as="image" fetchpriority="high"><meta name="keywords" content="毕设"><meta name="description" content="氧空位有序性对铁掺杂锶基钙钛矿结构和反应活性的影响：一项计算研究"><link rel="canonical" href="https://ei4869.github.io/miyano/Scientific-Notes/%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0%E5%9B%9B/"><script>window.sakuraConfig = {
+  sakura: 30,
+  xSpeed: 0.5,
+  ySpeed: 0.5,
+  rSpeed: 0.03,
+  direction: "TopRight",
+  zIndex: -1
+};</script><script src="https://cdn.jsdelivr.net/gh/minz71/sakura-rain/sakura-rain.js" defer="defer"></script><title>毕设笔记(四)</title><meta name="generator" content="Hexo 7.3.0"></head><body itemscope="" itemtype="http://schema.org/WebPage"><div id="loading"><div class="cat"><div class="body"></div><div class="head"><div class="face"></div></div><div class="foot"><div class="tummy-end"></div><div class="bottom"></div><div class="legs left"></div><div class="legs right"></div></div><div class="paw"><div class="hands left"></div><div class="hands right"></div></div></div></div><div id="container"><header id="header" itemscope="" itemtype="http://schema.org/WPHeader"><div class="inner"><div id="brand"><div class="pjax"><h1 itemprop="name headline">毕设笔记(四)</h1><div class="meta"><span class="item" title="创建时间：2024-11-23 10:32:52"><span class="icon"><i class="ic i-calendar"></i></span><span class="text">发表于</span><time itemprop="dateCreated datePublished" datetime="2024-11-23T10:32:52+08:00">2024-11-23</time></span><span class="item" title="本文字数"><span class="icon"><i class="ic i-pen"></i></span><span class="text">本文字数</span><span>8.5k</span><span class="text">字</span></span><span class="item" title="阅读时长"><span class="icon"><i class="ic i-clock"></i></span><span class="text">阅读时长</span><span>8min</span></span></div></div></div><nav id="nav"><div class="inner"><div class="toggle"><div class="lines" aria-label="切换导航栏"><span class="line"></span><span class="line"></span><span class="line"></span></div></div><ul class="menu"><li class="item title"><a href="/miyano/" rel="start">Rei の 手帳</a></li></ul><ul class="right" id="rightNav"><li class="item theme"><i class="ic i-sun"></i></li><li class="item search"><i class="ic i-search"></i></li></ul></div></nav></div><div class="pjax" id="imgs"><ul><li class="item" style="background-image: url(&quot;https://cloudflare-imgbed-9os.pages.dev/file/eva_18.webp&quot;);"></li><li class="item" style="background-image: url(&quot;https://cloudflare-imgbed-9os.pages.dev/file/eva_25.webp&quot;);"></li><li class="item" style="background-image: url(&quot;https://cloudflare-imgbed-9os.pages.dev/file/eva_19.webp&quot;);"></li><li class="item" style="background-image: url(&quot;https://cloudflare-imgbed-9os.pages.dev/file/eva_35.webp&quot;);"></li><li class="item" style="background-image: url(&quot;https://cloudflare-imgbed-9os.pages.dev/file/eva_35.webp&quot;);"></li><li class="item" style="background-image: url(&quot;https://cloudflare-imgbed-9os.pages.dev/file/eva_25.webp&quot;);"></li></ul></div></header><div id="waves"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><main><div class="inner"><div class="pjax" id="main"><div class="article wrap"><div class="breadcrumb" itemlistelement="" itemscope="" itemtype="https://schema.org/BreadcrumbList"><i class="ic i-home"></i><span><a href="/miyano/">首页</a></span><i class="ic i-angle-right"></i><span class="current" itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/miyano/categories/Scientific-Notes/" itemprop="item" rel="index" title="分类于科研笔记"><span itemprop="name">科研笔记<meta itemprop="position" content="0"></span></a></span></div><article class="post block" itemscope="itemscope" itemtype="http://schema.org/Article" lang="zh-CN"><link itemprop="mainEntityOfPage" href="https://ei4869.github.io/miyano/Scientific-Notes/%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0%E5%9B%9B/"><span hidden="hidden" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><meta itemprop="image" content="/miyano/assets/ai-icon.webp"><meta itemprop="name" content="Rei"><meta itemprop="description" content=", "></span><span hidden="hidden" itemprop="publisher" itemscope="itemscope" itemtype="http://schema.org/Organization"><meta itemprop="name" content="自分の為に楽しめ世界"></span><div class="body md" itemprop="articleBody"><hr>
+<h1 id="analog-memristive-synapse-based-on-topotactic-phase-transition-for-high-performance-neuromorphic-computing-and-neural-network-pruning基于拓扑相变的模拟忆阻突触用于高性能神经形态计算和神经网络剪枝"><a class="anchor" href="#analog-memristive-synapse-based-on-topotactic-phase-transition-for-high-performance-neuromorphic-computing-and-neural-network-pruning基于拓扑相变的模拟忆阻突触用于高性能神经形态计算和神经网络剪枝">#</a> Analog memristive synapse based on topotactic phase transition for high-performance neuromorphic computing and neural network pruning (基于拓扑相变的模拟忆阻突触：用于高性能神经形态计算和神经网络剪枝)</h1>
+<h2 id="研究内容"><a class="anchor" href="#研究内容">#</a> 研究内容：</h2>
+<p>  提出并实现了一种基于<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mi>r</mi><mi>C</mi><mi>o</mi><msub><mi>O</mi><mi>x</mi></msub></mrow><annotation encoding="application/x-tex">SrCoO_x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="mord mathnormal">o</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">x</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 材料的拓扑相变随机存储器（TPT-RAM），具有独特的扩散性非易失双模式特性。该存储器通过氧离子沿高度有序氧空位通道的迁移，实现了可逆的相变控制，具有低变异性和高性能的模拟开关特性。<br>
+  使用第一性原理计算和动力学蒙特卡洛模拟，研究了 TPT-RAM 的取向相关开关机制。双模式 TPT-RAM 被用来模拟突触选择性稳定过程，并实现神经网络剪枝。</p>
+<h2 id="特点和优势"><a class="anchor" href="#特点和优势">#</a> 特点和优势</h2>
+<hr>
+<p><strong>TPT-RAM 与其他 NVMs 的对比</strong></p>
+<ol>
+<li>
+<p><strong>传统 NVMs 的不足</strong>：</p>
+<ul>
+<li><strong>电阻式随机存储器（RRAM）</strong>：
+<ul>
+<li>依赖于无序氧空位的迁移（例如非晶态氧化物），导致设备变异性大。</li>
+<li>界面型 RRAM 缺乏局部焦耳加热效应，表现出较差的保留特性和低速率。</li>
+</ul>
+</li>
+<li><strong>相变存储器（PCM）</strong>：
+<ul>
+<li>开关过程高度不对称，由晶态 - 非晶态相变中的急速冷却导致。</li>
+<li>受导电漂移问题影响，限制其长期性能。</li>
+</ul>
+</li>
+<li><strong>整体挑战</strong>：
+<ul>
+<li>这些器件存在固有的工作机制局限性，仅通过优化设备结构难以完全克服。</li>
+<li>主要局限于模拟单个神经元或突触功能，未能有效模拟神经网络级别的特性（如神经网络修剪）。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>TPT-RAM 的优势</strong>：</p>
+<ul>
+<li><strong>更高的均匀性</strong>：基于拓扑相变，TPT-RAM 能够控制氧离子沿高度有序的氧空位通道迁移，提供了更可预测和更稳定的性能。</li>
+<li><strong>多功能性</strong>：具有双模式（扩散性非易失性模式）的特性，能够模仿神经网络中的突触选择性稳定化过程，同时支持神经网络修剪。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<p><strong>TPT-RAM 的特点与设计思路</strong></p>
+<ol>
+<li>
+<p><strong>材料选择</strong>：</p>
+<ul>
+<li>使用<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mi>r</mi><mi>C</mi><mi>o</mi><msub><mi>O</mi><mi>x</mi></msub></mrow><annotation encoding="application/x-tex">SrCoO_x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="mord mathnormal">o</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">x</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 材料作为电阻切换层。<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mi>r</mi><mi>C</mi><mi>o</mi><msub><mi>O</mi><mi>x</mi></msub></mrow><annotation encoding="application/x-tex">SrCoO_x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="mord mathnormal">o</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">x</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 的棕褐石（BM）结构和钙钛矿（PV）结构提供了理想的氧离子迁移通道。</li>
+<li>这种材料特性使得氧离子能够在高度有序的氧空位通道内迁移，易于通过调整氧化学计量实现可逆的相变。</li>
+</ul>
+</li>
+<li>
+<p><strong>核心机制</strong>：</p>
+<ul>
+<li>通过电场驱动，氧离子在顶电极和底电极之间沿氧空位通道迁移，触发 BM-PV 相变。</li>
+<li>相变可控制切换为多级导电状态，实现模拟开关功能。</li>
+</ul>
+</li>
+<li>
+<p><strong>设备设计</strong>：</p>
+<ul>
+<li><strong>晶向优化</strong>：
+<ul>
+<li>在不同取向的<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mi>r</mi><mi>T</mi><mi>i</mi><msub><mi>O</mi><mn>3</mn></msub></mrow><annotation encoding="application/x-tex">SrTiO_3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="mord mathnormal">i</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 衬底上外延生长<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mi>r</mi><mi>C</mi><mi>o</mi><msub><mi>O</mi><mi>x</mi></msub></mrow><annotation encoding="application/x-tex">SrCoO_x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="mord mathnormal">o</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">x</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>，优化氧空位通道的取向，使其更有利于电场驱动的氧离子迁移。</li>
+</ul>
+</li>
+<li><strong>结构特点</strong>：
+<ul>
+<li>利用氧八面体与四面体的交替堆叠实现高质量氧空位通道。</li>
+<li>引入保护层（如<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><msub><mi>l</mi><mn>2</mn></msub><msub><mi>O</mi><mn>3</mn></msub></mrow><annotation encoding="application/x-tex">Al_2O_3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8444em;vertical-align:-0.15em;"></span><span class="mord mathnormal">A</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.01968em;">l</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0197em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>）提高设备稳定性。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>目标性能</strong>：</p>
+<ul>
+<li><strong>降低变异性</strong>：通过高度有序的氧离子迁移路径显著减少设备间和循环间的变异性。</li>
+<li><strong>增强模拟性能</strong>：提供多级导电状态和线性权重更新特性，满足高精度和高能效计算的需求。</li>
+<li><strong>支持神经网络优化</strong>：通过双模式特性在在线训练中实现神经网络修剪，从而减少冗余连接并提高整体效率。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="研究结果"><a class="anchor" href="#研究结果">#</a> 研究结果</h2>
+<h2 id="tpt-ram的取向依赖性切换特性"><a class="anchor" href="#tpt-ram的取向依赖性切换特性">#</a> TPT-RAM 的取向依赖性切换特性</h2>
+<hr>
+<p><strong>研究背景与目标</strong></p>
+<ul>
+<li><strong>目标</strong>：研究基于不同晶体 (STO) 取向的<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mi>r</mi><mi>C</mi><mi>o</mi><msub><mi>O</mi><mi>x</mi></msub></mrow><annotation encoding="application/x-tex">SrCoO_x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="mord mathnormal">o</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">x</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>（SCO）薄膜对拓扑相变随机存储器（TPT-RAM）切换特性的影响，重点分析氧离子迁移路径及其对性能均匀性和速度的影响。</li>
+<li><strong>研究重点</strong>：通过控制氧空位通道（OVCs）的方向，探讨其在 BM（棕褐石）到 PV（钙钛矿）相变中的作用机制。</li>
+</ul>
+<hr>
+<p><strong>实验设计</strong></p>
+<ol>
+<li>
+<p><strong>样品制备</strong>：</p>
+<ul>
+<li>使用脉冲激光沉积法（PLD），在不同取向的<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mi>r</mi><mi>T</mi><mi>i</mi><msub><mi>O</mi><mn>3</mn></msub></mrow><annotation encoding="application/x-tex">SrTiO_3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="mord mathnormal">i</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>（STO）衬底上外延生长 SCO 薄膜：
+<ul>
+<li><strong>(001) 取向</strong>：OVCs 平行于薄膜表面，沿面内方向排列。</li>
+<li><strong>(110) 取向</strong>：OVCs 具有显著的面外（垂直）分量。</li>
+</ul>
+</li>
+<li>薄膜上覆盖 20 nm 厚的<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><msub><mi>l</mi><mn>2</mn></msub><msub><mi>O</mi><mn>3</mn></msub></mrow><annotation encoding="application/x-tex">Al_2O_3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8444em;vertical-align:-0.15em;"></span><span class="mord mathnormal">A</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.01968em;">l</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0197em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 保护层，定义器件区域后在顶部电极沉积 100 nm 厚的 Au 顶电极 (TE)， 金属 SRO (<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mi>r</mi><mi>R</mi><mi>u</mi><msub><mi>O</mi><mn>3</mn></msub></mrow><annotation encoding="application/x-tex">SrRuO_3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mord mathnormal">u</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>) 用作底电极 (BE)。Au 和 SRO 均能与 BM-SCO 形成欧姆接触，这一特性对消除界面势垒的影响并获得对称的 I-V 特性至关重要。</li>
+</ul>
+</li>
+<li>
+<p><strong>晶体表征</strong>：</p>
+<ul>
+<li>使用 X 射线衍射（XRD）和透射电镜（STEM）分析两种薄膜的晶体结构，明确 OVCs 的方向。</li>
+<li><strong>结果</strong>：
+<ul>
+<li>OVCs 在 (001) 取向中排列于平面内。</li>
+<li>OVCs 在 (110) 取向中表现出明显的垂直分量，有利于电场驱动的氧离子迁移。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<hr>
+<p><strong>器件性能分析</strong></p>
+<ol>
+<li>
+<p><strong>成形电压与循环特性</strong>：</p>
+<ul>
+<li>比较了 (001) 和 (110) 取向设备的成形过程和循环 I-V 曲线：
+<ul>
+<li><strong>(001) 取向</strong>：平均成形电压为 5.04 ± 0.07 V，变异性较高。</li>
+<li><strong>(110) 取向</strong>：平均成形电压为 3.98 ± 0.05 V，表现出更低的变异性。</li>
+</ul>
+</li>
+<li><strong>循环均匀性</strong>：
+<ul>
+<li>(110) 取向设备的导电状态和开关电压的循环变异性显著低于 (001) 取向。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>导电切换均匀性</strong>：</p>
+<ul>
+<li>对 500 次切换循环中设备导电特性进行统计：
+<ul>
+<li><strong>(110) 取向</strong>：高阻态（HRS）和低阻态（LRS）的变异性分别为 2.25% 和 13.74%，显著优于 (001) 取向。</li>
+</ul>
+</li>
+<li>归因于 (110) 取向中的 OVCs 沿电场方向对氧离子迁移路径的有序引导。</li>
+</ul>
+</li>
+<li>
+<p><strong>操作速度与能耗</strong>：</p>
+<ul>
+<li>使用脉冲测试评估设备的切换速度：
+<ul>
+<li><strong>(001) 取向</strong>：达到目标导电状态需要更高电压（~2.0 V）和更长时间（~10 µs）。</li>
+<li><strong>(110) 取向</strong>：能够以更低电压（~0.8 V）和更快速度（~100 ns）实现切换。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<hr>
+<p><strong>理论分析与模拟</strong></p>
+<ol>
+<li>
+<p><strong>氧离子迁移路径计算</strong>：</p>
+<ul>
+<li>通过密度泛函理论（DFT）计算分析不同方向的氧离子迁移能垒：
+<ul>
+<li>沿 OVCs 迁移的能垒为 0.56 eV。</li>
+<li>垂直于 OVCs 迁移的能垒显著更高，为 0.97 eV。</li>
+<li>跨越八面体层的迁移能垒为 1.84 eV。</li>
+</ul>
+</li>
+<li>结果表明氧离子优先沿 OVCs 方向迁移。</li>
+</ul>
+</li>
+<li>
+<p><strong>动力学蒙特卡洛（KMC）模拟</strong>：</p>
+<ul>
+<li>建立模型模拟电场下氧离子迁移和相变：
+<ul>
+<li><strong>(110) 取向</strong>：OVCs 与电场方向一致，迁移路径明确，易于形成导电丝。</li>
+<li><strong>(001) 取向</strong>：OVCs 与电场方向垂直，氧离子迁移路径随机性更高，导致非均匀相变。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<hr>
+<p><strong>关键结论</strong></p>
+<ul>
+<li>(110) 取向中 OVCs 的垂直排列增强了离子迁移的有序性，显著提高了切换均匀性、速度和效率。</li>
+<li>(001) 取向中随机迁移路径导致较高的循环变异性和更高的操作电压。</li>
+</ul>
+<hr>
+<h2 id="tpt-ram的模拟开关特性"><a class="anchor" href="#tpt-ram的模拟开关特性">#</a> TPT-RAM 的模拟开关特性</h2>
+<hr>
+<p><strong>研究目标</strong></p>
+<ul>
+<li>探讨基于 (110) 取向<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mi>r</mi><mi>C</mi><mi>o</mi><msub><mi>O</mi><mi>x</mi></msub></mrow><annotation encoding="application/x-tex">SrCoO_x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="mord mathnormal">o</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">x</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>（SCO）的拓扑相变随机存储器（TPT-RAM）的模拟切换特性，评估其在线性切换、导电状态稳定性、多级存储能力和长期耐久性方面的表现。</li>
+</ul>
+<hr>
+<p><strong>实验与结果分析</strong></p>
+<ol>
+<li>
+<p><strong>长时增强（LTP）与长时抑制（LTD）特性</strong>：</p>
+<ul>
+<li>通过 1 μs 宽度、1、1.5 和 2 V 幅值的连续脉冲测试，研究设备的模拟切换行为：
+<ul>
+<li>每个周期包括 50 个正向（增强）脉冲和 50 个负向（抑制）脉冲。通过读脉冲（幅值为 0.2 V，宽度为 1 μs）测量器件电导。</li>
+<li>结果显示，设备在低电压 (1 V) 下实现了几乎线性的导电状态调整。</li>
+<li>非线性因子：
+<ul>
+<li>LTP：0.20。</li>
+<li>LTD：1.29。</li>
+</ul>
+</li>
+<li>该值显著优于典型电阻式随机存储器（RRAM）。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>重复编程与线性化改进</strong>：</p>
+<ul>
+<li>对设备进行多次循环测试以评估其可重复性和均匀性：
+<ul>
+<li>使用幅值逐渐递增的脉冲（1 V 到 2.89 V），切换线性显著改善 (相比于在相同脉冲下，幅值为 1 V，宽度为 1 μs)，同时提高了导电状态的开关比。</li>
+<li>表明脉冲幅值设计能够进一步优化设备性能。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>多级存储与保持特性</strong>：</p>
+<ul>
+<li><strong>导电状态保持性</strong>：
+<ul>
+<li>在 85°C 高温下测试不同导电状态的保持时间，结果显示稳定性超过 3000 秒。</li>
+<li>通过温度依赖测试估算，室温下该器件的保留时间超过 10 年。</li>
+<li>SCO (110) pc 中定向氧空位通道（OVCs）的存在，使得该器件可以通过更低的迁移势垒轻松编程，同时由于更高的扩散势垒，具备优异的保持特性。</li>
+</ul>
+</li>
+<li><strong>多级存储能力与循环稳定性</strong>：
+<ul>
+<li>使用幅值从 1.8 V 到 3.2 V 的脉冲对设备进行<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><msup><mn>0</mn><mn>8</mn></msup></mrow><annotation encoding="application/x-tex">10^8</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span></span></span></span> 次循环切换，测试显示器件在不同电阻开关窗口下均保持稳定，具有良好的耐久性。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>扩散性与非易失性双模式</strong>：</p>
+<ul>
+<li>测试表明，器件经历成型过程后 (见 1.3.1 成型电压) 表现为非易失性，而在成型之前，器件表现为扩散性忆阻特性，TPT-RAM 具有扩散性和非易失性双模式特性：
+<ul>
+<li><strong>扩散模式</strong>：弱电压激励下，器件呈现出时间依赖的扩散特性，导电状态会自然衰退回初始值。这是因为：由于 BM 相的绝缘特性，器件开始时表现出高电阻（&gt;1 MΩ）。当施加低于成型电压的弱激励（例如，2 V）时，氧离子从 SRO 层被提取到 SRO/SCO 界面，降低了器件电阻。然而，这种激励不足以支持 SCO 完成稳定的相变，因为稳定相变需要足够多的氧离子。一旦移除电压偏置，界面处的化学势差会驱动氧离子回流至 SRO 层，导致器件逐渐恢复至初始的高阻态（HRS）。</li>
+<li><strong>非易失性模式</strong>：强激励或连续脉冲操作触发设备形成稳定的导电丝，导电状态长期保持不变。这是因为：在强激励下（例如，约 4 V 的直流成型电压），大量氧离子被驱入 SCO，触发稳定相变。此后，小的正电压可以吸引更多氧离子迁移，诱导 SCO 从 BM 相向 PV 相的稳定相变，从而增加器件电导（设置过程）。当施加负电压时，氧离子被驱回 SRO，发生反向相变，降低器件电导（复位过程）。因此，在这种非易失模式下，器件表现出相对较低的电阻和优异的保持性能。</li>
+</ul>
+</li>
+<li>器件可以从扩散模式转变为非易失模式，器件既可以通过单一高电压成型 (施加激励大于所需成型电压)，也可以通过足够多的小电压重复脉冲成型 (施加足够多脉冲数量的低电压连续脉冲)。</li>
+<li>通过脉冲数量和幅值的调节，可控制设备在两种模式之间切换。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<p><strong>性能比较与优势</strong></p>
+<ol>
+<li><strong>线性与非线性因子改进</strong>：
+<ul>
+<li>与传统 RRAM 相比，TPT-RAM 在模拟切换中的线性因子显著降低，支持高精度神经网络权重更新。</li>
+</ul>
+</li>
+<li><strong>多功能性与稳定性</strong>：
+<ul>
+<li>具有多级存储能力、良好的保持特性和高循环耐久性。</li>
+</ul>
+</li>
+<li><strong>低功耗与高效率</strong>：
+<ul>
+<li>模拟切换可在低电压（~1 V）下实现，减少了功耗需求，同时提高了计算效率。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="进行神经网络剪枝"><a class="anchor" href="#进行神经网络剪枝">#</a> 进行神经网络剪枝</h2>
+<hr>
+<p><strong>研究背景与目标</strong></p>
+<ul>
+<li>
+<p><strong>背景</strong>：</p>
+<ul>
+<li>在人类大脑的发育过程中，突触连接在早期达到峰值，随后通过<strong>选择性稳定化和修剪</strong>过程精简神经网络，保留高效连接以优化认知能力。</li>
+<li>类脑计算硬件面临挑战：如何模仿生物神经网络中重要的网络级功能（如神经网络修剪），同时降低复杂性和功耗。</li>
+</ul>
+</li>
+<li>
+<p><strong>目标</strong>：</p>
+<ul>
+<li>利用 TPT-RAM 的<strong>扩散性与非易失性双模式特性</strong>，模仿生物神经网络的突触修剪过程，创建稀疏、高效的人工神经网络。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>实现方法</strong></p>
+<ol>
+<li>
+<p><strong>神经网络修剪机制</strong>：</p>
+<ul>
+<li>TPT-RAM 器件的两种模式与突触行为的对应关系：
+<ul>
+<li><strong>扩散模式</strong>：突触连接处于不稳定状态，导电值会逐渐衰退（对应低活跃突触被削弱或移除）。</li>
+<li><strong>非易失性模式</strong>：经过频繁更新的突触连接达到稳定状态（经历电成型并最终进入非易失态），导电值保持不变（对应稳定突触被强化）。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>硬件实现</strong>：</p>
+<ul>
+<li>设计差分对 TPT-RAM 器件，每对设备表示一个突触权重，初始时，所有突触器件都工作在扩散模式。</li>
+<li>网络训练期间：
+<ul>
+<li><strong>高频使用的突触</strong>：电压脉冲逐步增强，触发 TPT-RAM 从扩散模式切换至非易失性模式，形成稳定的突触连接。</li>
+<li><strong>低频使用的突触</strong>：由于缺乏足够激励，设备导电值自然衰退，最终实现突触修剪。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>神经网络模拟</strong>：</p>
+<ul>
+<li>使用两个模型验证 TPT-RAM 的修剪功能：
+<ul>
+<li><strong>多层感知机（MLP）</strong>：架构为 784 × 100 × 10。</li>
+<li><strong>卷积神经网络（CNN）</strong>：基于 LeNet-5，包括卷积层、池化层和全连接层。</li>
+</ul>
+</li>
+<li>在训练过程中引入 “休息阶段”，未激活的突触自然衰退，强化活跃的突触。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<p><strong>实验结果</strong></p>
+<ol>
+<li>
+<p><strong>修剪效果</strong>：</p>
+<ul>
+<li>使用 MNIST 手写数字分类任务测试网络性能：
+<ul>
+<li><strong>MLP</strong>：修剪率达到 73.8%，电源功耗降低 38%。</li>
+<li><strong>CNN</strong>：修剪率达到 84.2%，电源功耗降低 63%。</li>
+</ul>
+</li>
+<li>通过修剪减少冗余突触，网络有效避免过拟合。</li>
+</ul>
+</li>
+<li>
+<p><strong>分类精度提升</strong>：</p>
+<ul>
+<li>修剪后的网络在 MNIST 分类任务中，分类精度提高至 99%。</li>
+</ul>
+</li>
+<li>
+<p><strong>效率与功耗优化</strong>：</p>
+<ul>
+<li>网络复杂性显著降低，存储和计算资源需求减少，使得 TPT-RAM 硬件适用于资源有限的设备（如便携式电子设备和物联网应用）。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<p><strong>TPT-RAM 特性优势</strong></p>
+<ol>
+<li><strong>扩散与非易失性双模式</strong>：
+<ul>
+<li>自然地模拟生物神经网络的突触动态，支持在线训练中的突触修剪过程。</li>
+</ul>
+</li>
+<li><strong>稀疏化网络生成</strong>：
+<ul>
+<li>自动调整网络结构，仅保留高活跃连接，避免传统修剪方法产生的硬件开销和计算负担。</li>
+</ul>
+</li>
+<li><strong>低功耗与高精度</strong>：
+<ul>
+<li>模拟神经网络过程中功耗显著降低，同时增强分类任务的准确性。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="实验结论"><a class="anchor" href="#实验结论">#</a> 实验结论</h2>
+<hr>
+<ol>
+<li>
+<p><strong>TPT-RAM 的创新性</strong>：</p>
+<ul>
+<li><strong>设备原理</strong>：
+<ul>
+<li>提出了基于<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mi>r</mi><mi>C</mi><mi>o</mi><msub><mi>O</mi><mi>x</mi></msub></mrow><annotation encoding="application/x-tex">SrCoO_x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="mord mathnormal">o</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">x</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>（SCO）的拓扑相变随机存储器（TPT-RAM），其核心机制是氧离子沿高度有序的氧空位通道（OVCs）迁移，触发 BM（棕褐石）到 PV（钙钛矿）的相变。</li>
+</ul>
+</li>
+<li><strong>性能优势</strong>：
+<ul>
+<li><strong>高均匀性</strong>：循环间变异性仅<sub> 0.9%，设备间变异性仅</sub> 4.9%。</li>
+<li><strong>快速低功耗操作</strong>：操作电压低至 0.8 V，切换速度低于 100 ns。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>拓扑相变的可控性</strong>：</p>
+<ul>
+<li><strong>物理机制验证</strong>：
+<ul>
+<li>利用第一性原理计算（DFT）和动力学蒙特卡洛（KMC）模拟，确认氧离子迁移路径与 OVCs 取向密切相关。</li>
+<li>优化 OVCs 排列可显著提升设备的切换均匀性和效率。</li>
+</ul>
+</li>
+<li><strong>材料设计意义</strong>：
+<ul>
+<li>强调通过控制离子迁移路径优化相变器件性能的重要性，为未来高性能存储设备设计提供指导。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>独特的双模式特性</strong>：</p>
+<ul>
+<li><strong>扩散性与非易失性模式</strong>：
+<ul>
+<li>在扩散模式下，设备表现出时间依赖的记忆行为（短期记忆）。</li>
+<li>在非易失性模式下，设备形成稳定导电通道（长期记忆）。</li>
+</ul>
+</li>
+<li><strong>生物拟态能力</strong>：
+<ul>
+<li>双模式特性使 TPT-RAM 能够模拟生物突触的选择性稳定化和神经网络修剪过程。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>未来优化与应用</strong>：</p>
+<ul>
+<li>提出进一步结合硅基晶体管构建功能性突触阵列的潜力。</li>
+<li>推荐采用<strong>远程外延技术</strong>或<strong>牺牲层辅助薄膜转移技术</strong>，以优化 TPT-RAM 的集成工艺和规模化生产。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="实验方法"><a class="anchor" href="#实验方法">#</a> 实验方法</h2>
+<p><strong>1. 薄膜生长与表征条件</strong></p>
+<p><strong>薄膜生长条件</strong>：</p>
+<ul>
+<li><strong>沉积方法</strong>：反射高能电子衍射（RHEED）辅助的脉冲激光沉积（PLD）。</li>
+<li><strong>生长参数</strong>：
+<ul>
+<li>温度：750°C。</li>
+<li>氧气环境：100 mtorr。</li>
+<li>激光波长为 248 nm（KrF 激光器）。
+<ul>
+<li>激光能量：1.2 J/cm²。</li>
+</ul>
+</li>
+<li>激光重复频率：2 Hz。</li>
+</ul>
+</li>
+<li><strong>样品厚度</strong>：
+<ul>
+<li><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mi>r</mi><mi>C</mi><mi>o</mi><msub><mi>O</mi><mi>x</mi></msub></mrow><annotation encoding="application/x-tex">SrCoO_x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="mord mathnormal">o</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">x</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>（SCO）薄膜：35 nm。</li>
+<li><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mi>r</mi><mi>R</mi><mi>u</mi><msub><mi>O</mi><mn>3</mn></msub></mrow><annotation encoding="application/x-tex">SrRuO_3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mord mathnormal">u</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>（SRO）薄膜：17 nm。</li>
+</ul>
+</li>
+<li><strong>冷却过程</strong>：
+<ul>
+<li>冷却速率：7°C/min。</li>
+<li>氧气环境：100 mtorr。</li>
+</ul>
+</li>
+</ul>
+<p><strong>薄膜表征方法</strong>：<br>
+薄膜厚度通过生长时间控制。</p>
+<ul>
+<li><strong>晶体结构</strong>：
+<ul>
+<li>X 射线衍射（XRD）。</li>
+<li>Reciprocal Space Mapping（RSM）。</li>
+</ul>
+</li>
+<li><strong>原子结构</strong>：
+<ul>
+<li>原子分辨率扫描透射电子显微镜（STEM）。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>2. 设备制造与测试方法</strong></p>
+<p><strong>设备制造过程</strong>：</p>
+<ul>
+<li><strong>绝缘层</strong>：
+<ul>
+<li>材料：20 nm 厚的<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><msub><mi>l</mi><mn>2</mn></msub><msub><mi>O</mi><mn>3</mn></msub></mrow><annotation encoding="application/x-tex">Al_2O_3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8444em;vertical-align:-0.15em;"></span><span class="mord mathnormal">A</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.01968em;">l</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0197em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>。</li>
+<li>工艺：原子层沉积（ALD）。</li>
+</ul>
+</li>
+<li><strong>接触通孔</strong>：
+<ul>
+<li>尺寸：从 4×4 μm² 到 100×100 μm²。</li>
+<li>定义了设备的活动区域。</li>
+</ul>
+</li>
+<li><strong>电极材料</strong>：
+<ul>
+<li>底电极（BE）：SRO。</li>
+<li>顶电极（TE）：接触孔顶部使用磁控溅射法沉积了厚度为 100 nm 的 Au 电极，其尺寸为 100 × 100 μm²。</li>
+</ul>
+</li>
+</ul>
+<p><strong>电学性能测试方法</strong>：</p>
+<ul>
+<li><strong>测试仪器</strong>：
+<ul>
+<li>半导体参数分析仪（Agilent B1500）。</li>
+<li>脉冲发生器（Agilent 81110A）。</li>
+<li>开关矩阵（Keithley 707）。</li>
+</ul>
+</li>
+<li><strong>测量内容</strong>：
+<ul>
+<li>I-V 特性测试：包括成形电压、循环切换和多级存储特性。</li>
+<li>脉冲响应测试：评估设备的切换速度、导电状态稳定性和循环耐久性。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>3. 神经网络模拟</strong></p>
+<p><strong>网络架构</strong>：</p>
+<ul>
+<li><strong>多层感知机（MLP）</strong>：
+<ul>
+<li>网络结构：784 × 100 × 10。</li>
+</ul>
+</li>
+<li><strong>卷积神经网络（CNN）</strong>：
+<ul>
+<li>使用 LeNet-5 架构，包括：
+<ul>
+<li>3 个卷积层。</li>
+<li>2 个池化层。</li>
+<li>1 个全连接层。</li>
+<li>1 个径向基函数（RBF）输出层。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>模拟过程</strong>：</p>
+<ol>
+<li><strong>权重表示</strong>：
+<ul>
+<li>使用两片基于 SCO (110) pc 的 TPT-RAM 器件组成的差分对表示一个突触权重。</li>
+</ul>
+</li>
+<li><strong>训练算法</strong>：
+<ul>
+<li>标准反向传播（Backpropagation）。</li>
+<li>随机梯度下降（SGD）。</li>
+<li>批量大小：200。</li>
+<li>学习率：0.01。</li>
+</ul>
+</li>
+<li><strong>训练过程</strong>：
+<ul>
+<li><strong>MLP 训练周期</strong>：10 轮。</li>
+<li><strong>CNN 训练周期</strong>：20 轮。</li>
+</ul>
+</li>
+<li><strong>“休息阶段”</strong>：
+<ul>
+<li>模拟人类学习过程中的突触稳定化。</li>
+<li>高活跃突触被强化（转入非易失性模式），低活跃突触自然衰退（扩散模式）。</li>
+</ul>
+</li>
+<li><strong>设备特性模拟</strong>：
+<ul>
+<li>模拟过程中加入实验提取的循环变异性和符合高斯分布的噪声模型。</li>
+</ul>
+</li>
+<li><strong>性能评估</strong>：
+<ul>
+<li>使用 MNIST 手写数字数据集测试分类精度。</li>
+<li>修剪率计算：修剪后的零权重突触数量占比。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="pdf展示"><a class="anchor" href="#pdf展示">#</a> PDF 展示：</h2>
+<p>pdf /pdf/sciadv.abh0648.pdf</p>
+<hr>
+<hr>
+<div class="tags"><a href="/miyano/tags/%E6%AF%95%E8%AE%BE/" rel="tag"><i class="ic i-tag"></i>毕设</a></div></div><footer><div class="meta"><span class="icon"><i class="ic i-eye"></i></span><span>此文章已被阅读次数:</span><span class="waline-pageview-count" id="twikoo_visitors" data-path="/Scientific-Notes/毕设笔记四/">正在加载...</span><span class="item"><span class="icon"><i class="ic i-calendar-check"></i></span><span class="text">更新于</span><time title="修改时间：2024-11-23 15:27:40" itemprop="dateModified" datetime="2024-11-23T15:27:40+08:00">2024-11-23</time></span></div><div id="copyright"><ul><li class="author"><strong>本文作者：</strong>Rei<i class="ic i-at"><em>@</em></i>自分の為に楽しめ世界</li><li class="link"><strong>本文链接：</strong><a href="https://ei4869.github.io/miyano/Scientific-Notes/%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0%E5%9B%9B/" title="毕设笔记(四)">https://ei4869.github.io/miyano/Scientific-Notes/毕设笔记四/</a></li><li class="license"><strong>版权声明：</strong>本站所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li></ul></div></footer></article></div><div class="post-nav"><div class="item left"><a href="/miyano/Scientific-Notes/2024-11-22-%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0-%E4%B8%89/" rel="prev" itemprop="url" data-background-image="https://cloudflare-imgbed-9os.pages.dev/file/eva_25.webp" title="毕设笔记(三)"><span class="type">上一篇</span><span class="category"><i class="ic i-flag"></i>科研笔记</span><h3>毕设笔记(三)</h3></a></div><div class="item right"><a href="/miyano/Literature-Translation/2024-11-24-%E6%96%87%E7%8C%AE%E7%BF%BB%E8%AF%91-%E4%B8%80/" rel="next" itemprop="url" data-background-image="https://cloudflare-imgbed-9os.pages.dev/file/eva_35.webp" title="文献翻译(一)"><span class="type">下一篇</span><span class="category"><i class="ic i-flag"></i>文献翻译</span><h3>文献翻译(一)</h3></a></div></div><div class="wrap" id="comments"></div></div><div id="sidebar"><div class="inner"><div class="panels"><div class="inner"><div class="contents panel pjax" data-title="文章目录"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#analog-memristive-synapse-based-on-topotactic-phase-transition-for-high-performance-neuromorphic-computing-and-neural-network-pruning%E5%9F%BA%E4%BA%8E%E6%8B%93%E6%89%91%E7%9B%B8%E5%8F%98%E7%9A%84%E6%A8%A1%E6%8B%9F%E5%BF%86%E9%98%BB%E7%AA%81%E8%A7%A6%E7%94%A8%E4%BA%8E%E9%AB%98%E6%80%A7%E8%83%BD%E7%A5%9E%E7%BB%8F%E5%BD%A2%E6%80%81%E8%AE%A1%E7%AE%97%E5%92%8C%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%89%AA%E6%9E%9D"><span class="toc-number">1.</span> <span class="toc-text"> Analog memristive synapse based on topotactic phase transition for high-performance neuromorphic computing and neural network pruning (基于拓扑相变的模拟忆阻突触：用于高性能神经形态计算和神经网络剪枝)</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%A0%94%E7%A9%B6%E5%86%85%E5%AE%B9"><span class="toc-number">1.1.</span> <span class="toc-text"> 研究内容：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%89%B9%E7%82%B9%E5%92%8C%E4%BC%98%E5%8A%BF"><span class="toc-number">1.2.</span> <span class="toc-text"> 特点和优势</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%A0%94%E7%A9%B6%E7%BB%93%E6%9E%9C"><span class="toc-number">1.3.</span> <span class="toc-text"> 研究结果</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#tpt-ram%E7%9A%84%E5%8F%96%E5%90%91%E4%BE%9D%E8%B5%96%E6%80%A7%E5%88%87%E6%8D%A2%E7%89%B9%E6%80%A7"><span class="toc-number">1.4.</span> <span class="toc-text"> TPT-RAM 的取向依赖性切换特性</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#tpt-ram%E7%9A%84%E6%A8%A1%E6%8B%9F%E5%BC%80%E5%85%B3%E7%89%B9%E6%80%A7"><span class="toc-number">1.5.</span> <span class="toc-text"> TPT-RAM 的模拟开关特性</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%9B%E8%A1%8C%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%89%AA%E6%9E%9D"><span class="toc-number">1.6.</span> <span class="toc-text"> 进行神经网络剪枝</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9E%E9%AA%8C%E7%BB%93%E8%AE%BA"><span class="toc-number">1.7.</span> <span class="toc-text"> 实验结论</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9E%E9%AA%8C%E6%96%B9%E6%B3%95"><span class="toc-number">1.8.</span> <span class="toc-text"> 实验方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#pdf%E5%B1%95%E7%A4%BA"><span class="toc-number">1.9.</span> <span class="toc-text"> PDF 展示：</span></a></li></ol></li></ol></div><div class="related panel pjax" data-title="系列文章"><ul><li><a href="/miyano/Scientific-Notes/2024-11-20-%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0-%E4%B8%80/" rel="bookmark" title="毕设笔记(一)">毕设笔记(一)</a></li><li><a href="/miyano/Scientific-Notes/2024-11-21-%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0-%E4%BA%8C/" rel="bookmark" title="毕设笔记(二)">毕设笔记(二)</a></li><li><a href="/miyano/Scientific-Notes/2024-11-22-%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0-%E4%B8%89/" rel="bookmark" title="毕设笔记(三)">毕设笔记(三)</a></li><li class="active"><a href="/miyano/Scientific-Notes/%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0%E5%9B%9B/" rel="bookmark" title="毕设笔记(四)">毕设笔记(四)</a></li></ul></div><div class="overview panel" data-title="站点概览"><div class="author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><img class="image" loading="lazy" decoding="async" itemprop="image" alt="Rei" src="/miyano/assets/ai-icon.webp"><p class="name" itemprop="name">Rei</p><div class="description" itemprop="description"></div></div><nav class="state"><div class="item posts"><a href="/miyano/archives/"><span class="count">14</span><span class="name">文章</span></a></div><div class="item categories"><a href="/miyano/categories/"><span class="count">3</span><span class="name">分类</span></a></div><div class="item tags"><a href="/miyano/tags/"><span class="count">6</span><span class="name">标签</span></a></div></nav><div class="social"><a target="_blank" rel="noopener" href="https://github.com/ei4869" class="item github" title="https://github.com/ei4869"><i class="ic i-github"></i></a><a href="mailto:ai4869@gmail.com" class="item email" title="mailto:ai4869@gmail.com"><i class="ic i-envelope"></i></a></div><div class="menu"><li class="item"><a href="/miyano/" rel="section"><i class="ic i-home"></i>首页</a></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-feather"></i>文章</a><ul class="submenu"><li class="item"><a href="/miyano/archives/" rel="section"><i class="ic i-list-alt"></i>归档</a></li><li class="item"><a href="/miyano/categories/" rel="section"><i class="ic i-th"></i>分类</a></li><li class="item"><a href="/miyano/tags/" rel="section"><i class="ic i-tags"></i>标签</a></li></ul></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-baibaoxiang"></i>宝箱</a><ul class="submenu"><li class="item"><a href="/miyano/gallery/" rel="section"><i class="ic i-xiangce"></i>相册</a></li><li class="item"><a href="/miyano/anime/" rel="section"><i class="ic i-pc-dongman"></i>追番</a></li></ul></li><li class="item"><a href="/miyano/about/" rel="section"><i class="ic i-user"></i>关于</a></li></div></div></div></div><ul id="quick"><li class="prev pjax"><a href="/miyano/Literature-Translation/2024-11-24-%E6%96%87%E7%8C%AE%E7%BF%BB%E8%AF%91-%E4%B8%80/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a></li><li class="up"><i class="ic i-arrow-up"></i></li><li class="down"><i class="ic i-arrow-down"></i></li><li class="next pjax"><a href="/miyano/Scientific-Notes/2024-11-22-%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0-%E4%B8%89/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a></li><li class="percent"></li></ul></div></div><div class="dimmer"></div></div></main><footer id="footer"><div class="inner"><div class="widgets"><div class="rpost pjax"><h2>随机文章</h2><ul><li class="item"><div class="breadcrumb"><a href="/miyano/categories/Literature-Translation/" title="分类于文献翻译">文献翻译</a></div><span><a href="/miyano/Literature-Translation/2024-11-24-%E6%96%87%E7%8C%AE%E7%BF%BB%E8%AF%91-%E4%B8%89/">文献翻译(三)</a></span></li><li class="item"><div class="breadcrumb"><a href="/miyano/categories/Scientific-Notes/" title="分类于科研笔记">科研笔记</a></div><span><a href="/miyano/Scientific-Notes/2024-11-22-%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0-%E4%B8%89/">毕设笔记(三)</a></span></li><li class="item"><div class="breadcrumb"><a href="/miyano/categories/Playful-Exploration/" title="分类于整活探索">整活探索</a></div><span><a href="/miyano/Playful-Exploration/shokaX%E4%B8%BB%E9%A2%98%E7%AC%94%E8%AE%B0/">shokaX主题-笔记</a></span></li><li class="item"><div class="breadcrumb"><a href="/miyano/categories/Scientific-Notes/" title="分类于科研笔记">科研笔记</a></div><span><a href="/miyano/Scientific-Notes/%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0%E5%9B%9B/">毕设笔记(四)</a></span></li><li class="item"><div class="breadcrumb"><a href="/miyano/categories/Literature-Translation/" title="分类于文献翻译">文献翻译</a></div><span><a href="/miyano/Literature-Translation/2024-11-24-%E6%96%87%E7%8C%AE%E7%BF%BB%E8%AF%91-%E4%B8%80/">文献翻译(一)</a></span></li></ul></div><div class="rpost pjax"><h2>最新评论</h2><ul class="leancloud-recent-comment" id="new-comment"></ul></div></div><div style="width: 100%; text-align: center;"><span id="time">此站已存活 0 天 0 小时 0 分 0 秒</span></div><script src="/miyano/js/create-time.js" defer="defer"></script><div class="status"><div class="copyright">© 2024 -<span itemprop="copyrightYear">2025</span><span class="with-love"><i class="ic i-sakura rotate"></i></span><span class="author" itemprop="copyrightHolder">Rei @ Rei の 手帳</span></div><div class="count"><span class="post-meta-item-icon"><i class="ic i-chart-area"></i></span><span title="站点总字数">201k 字</span><span class="post-meta-divider"> | </span><span class="post-meta-item-icon"><i class="ic i-coffee"></i></span><span title="站点阅读时长">3h2min</span></div><div class="powered-by">基于 <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> &amp; Theme.<a target="_blank" rel="noopener" href="https://github.com/theme-shoka-x/hexo-theme-shokaX/">ShokaX</a></div></div></div></footer></div><script data-config="" type="text/javascript">var LOCAL = {
+    ispost: true,
+        path: `Scientific-Notes/毕设笔记四/`,
+        favicon: {
+        show: `（●´3｀●）萌え萌えキュン`,
+        hide: `(´Д｀)大変だ！`
+    },
+    search: {
+        placeholder: "文章搜索",
+        empty: "关于 「 ${query} 」，什么也没搜到",
+        stats: "${time} ms 内找到 ${hits} 条结果"
+    },
+    copy_tex: true,
+    katex: true,
+    mermaid: false,
+    audio: undefined,
+    fancybox: true,
+    nocopy: false,
+    outime: true,
+    template: `<div class="note warning"><p><span class="label warning">文章时效性提示</span><br>这是一篇发布于 {{publish}} 天前，最后一次更新在 {{updated}} 天前的文章，部分信息可能已经发生改变，请注意甄别。</p></div>`,
+    quiz: {
+        choice: `单选题`,
+        multiple: `多选题`,
+        true_false: `判断题`,
+        essay: `问答题`,
+        gap_fill: `填空题`,
+        mistake: `错题备注`
+    },
+    ignores: [
+        (uri) => uri.includes('#'),
+        (uri) => new RegExp(LOCAL.path + '$').test(uri),
+            []
+    ]
+};
+</script><script src="https://s4.zstatic.net/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous" fetchpriority="high"></script><script src="https://s4.zstatic.net/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous" fetchpriority="high"></script><script src="/miyano/js/siteInit.js?v=0.4.17" type="module" fetchpriority="high" defer=""></script></body></html>
